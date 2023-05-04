@@ -1,0 +1,1673 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 2 4
+Title "PixC4-Jetson Universal Carrier"
+Date "2021-03-23"
+Rev "0"
+Comp "Horizon31.com"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L fx23l-80p-0.5sv8:FX23L-80P-0.5SV8 J?
+U 1 1 6379D0FC
+P 1725 1600
+AR Path="/6379D0FC" Ref="J?"  Part="1" 
+AR Path="/63770CE0/6379D0FC" Ref="J5"  Part="1" 
+F 0 "J5" H 1433 1965 50  0000 C CNN
+F 1 "FX23L-80P-0.5SV10" H 1433 1874 50  0000 C CNN
+F 2 "UVDL:Hirose-FX23L-80P-0.5SV8-MFG" H 1725 2100 50  0001 L CNN
+F 3 "https://www.hirose.com/product/document?clcode=CL0573-2004-3-00&productname=FX23L-80P-0.5SV8&series=FX23L&documenttype=2DDrawing&lang=en&documentid=0000956343" H 1725 2200 50  0001 L CNN
+F 4 "No" H 1725 2300 50  0001 L CNN "automotive"
+F 5 "Conn" H 1725 2400 50  0001 L CNN "category"
+F 6 "Gold,Nickel" H 1725 2500 50  0001 L CNN "contact material"
+F 7 "0.5/3A" H 1725 2600 50  0001 L CNN "current rating"
+F 8 "Connectors" H 1725 2700 50  0001 L CNN "device class L1"
+F 9 "Board to Board Connectors" H 1725 2800 50  0001 L CNN "device class L2"
+F 10 "unset" H 1725 2900 50  0001 L CNN "device class L3"
+F 11 "CONN HDR" H 1725 3000 50  0001 L CNN "digikey description"
+F 12 "FX23L-80P-0.5SV8-ND" H 1725 3100 50  0001 L CNN "digikey part number"
+F 13 "7.15mm" H 1725 3200 50  0001 L CNN "height"
+F 14 "yes" H 1725 3300 50  0001 L CNN "is connector"
+F 15 "yes" H 1725 3400 50  0001 L CNN "is male"
+F 16 "Yes" H 1725 3500 50  0001 L CNN "lead free"
+F 17 "d772abcde60cf97a" H 1725 3600 50  0001 L CNN "library id"
+F 18 "Hirose" H 1725 3700 50  0001 L CNN "manufacturer"
+F 19 "798-FX23L-80P-0.5SV8" H 1725 3800 50  0001 L CNN "mouser part number"
+F 20 "80" H 1725 3900 50  0001 L CNN "number of contacts"
+F 21 "2" H 1725 4000 50  0001 L CNN "number of rows"
+F 22 "HDR80" H 1725 4100 50  0001 L CNN "package"
+F 23 "0.5mm" H 1725 4200 50  0001 L CNN "pitch"
+F 24 "Yes" H 1725 4300 50  0001 L CNN "rohs"
+F 25 "+105°C" H 1725 4400 50  0001 L CNN "temperature range high"
+F 26 "-55°C" H 1725 4500 50  0001 L CNN "temperature range low"
+F 27 "50/200V" H 1725 4600 50  0001 L CNN "voltage rating"
+F 28 "FX23L-80P-0.5SV8" H 1725 1600 50  0001 C CNN "Part Num"
+	1    1725 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L fx23l-80p-0.5sv8:FX23L-80P-0.5SV8 J?
+U 2 1 6379D11A
+P 3600 1625
+AR Path="/6379D11A" Ref="J?"  Part="2" 
+AR Path="/63770CE0/6379D11A" Ref="J5"  Part="2" 
+F 0 "J5" H 3308 1990 50  0000 C CNN
+F 1 "FX23L-80P-0.5SV10" H 3308 1899 50  0000 C CNN
+F 2 "UVDL:Hirose-FX23L-80P-0.5SV8-MFG" H 3600 2125 50  0001 L CNN
+F 3 "https://www.hirose.com/product/document?clcode=CL0573-2004-3-00&productname=FX23L-80P-0.5SV8&series=FX23L&documenttype=2DDrawing&lang=en&documentid=0000956343" H 3600 2225 50  0001 L CNN
+F 4 "No" H 3600 2325 50  0001 L CNN "automotive"
+F 5 "Conn" H 3600 2425 50  0001 L CNN "category"
+F 6 "Gold,Nickel" H 3600 2525 50  0001 L CNN "contact material"
+F 7 "0.5/3A" H 3600 2625 50  0001 L CNN "current rating"
+F 8 "Connectors" H 3600 2725 50  0001 L CNN "device class L1"
+F 9 "Board to Board Connectors" H 3600 2825 50  0001 L CNN "device class L2"
+F 10 "unset" H 3600 2925 50  0001 L CNN "device class L3"
+F 11 "CONN HDR" H 3600 3025 50  0001 L CNN "digikey description"
+F 12 "FX23L-80P-0.5SV8-ND" H 3600 3125 50  0001 L CNN "digikey part number"
+F 13 "7.15mm" H 3600 3225 50  0001 L CNN "height"
+F 14 "yes" H 3600 3325 50  0001 L CNN "is connector"
+F 15 "yes" H 3600 3425 50  0001 L CNN "is male"
+F 16 "Yes" H 3600 3525 50  0001 L CNN "lead free"
+F 17 "d772abcde60cf97a" H 3600 3625 50  0001 L CNN "library id"
+F 18 "Hirose" H 3600 3725 50  0001 L CNN "manufacturer"
+F 19 "798-FX23L-80P-0.5SV8" H 3600 3825 50  0001 L CNN "mouser part number"
+F 20 "80" H 3600 3925 50  0001 L CNN "number of contacts"
+F 21 "2" H 3600 4025 50  0001 L CNN "number of rows"
+F 22 "HDR80" H 3600 4125 50  0001 L CNN "package"
+F 23 "0.5mm" H 3600 4225 50  0001 L CNN "pitch"
+F 24 "Yes" H 3600 4325 50  0001 L CNN "rohs"
+F 25 "+105°C" H 3600 4425 50  0001 L CNN "temperature range high"
+F 26 "-55°C" H 3600 4525 50  0001 L CNN "temperature range low"
+F 27 "50/200V" H 3600 4625 50  0001 L CNN "voltage rating"
+F 28 "FX23L-80P-0.5SV10" H 3600 1625 50  0001 C CNN "Part Num"
+	2    3600 1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L fx23l-80p-0.5sv8:FX23L-80P-0.5SV8 J?
+U 3 1 6379D138
+P 5825 1600
+AR Path="/6379D138" Ref="J?"  Part="3" 
+AR Path="/63770CE0/6379D138" Ref="J5"  Part="3" 
+F 0 "J5" H 5433 1965 50  0000 C CNN
+F 1 "FX23L-80P-0.5SV10" H 5433 1874 50  0000 C CNN
+F 2 "UVDL:Hirose-FX23L-80P-0.5SV8-MFG" H 5825 2100 50  0001 L CNN
+F 3 "https://www.hirose.com/product/document?clcode=CL0573-2004-3-00&productname=FX23L-80P-0.5SV8&series=FX23L&documenttype=2DDrawing&lang=en&documentid=0000956343" H 5825 2200 50  0001 L CNN
+F 4 "No" H 5825 2300 50  0001 L CNN "automotive"
+F 5 "Conn" H 5825 2400 50  0001 L CNN "category"
+F 6 "Gold,Nickel" H 5825 2500 50  0001 L CNN "contact material"
+F 7 "0.5/3A" H 5825 2600 50  0001 L CNN "current rating"
+F 8 "Connectors" H 5825 2700 50  0001 L CNN "device class L1"
+F 9 "Board to Board Connectors" H 5825 2800 50  0001 L CNN "device class L2"
+F 10 "unset" H 5825 2900 50  0001 L CNN "device class L3"
+F 11 "CONN HDR" H 5825 3000 50  0001 L CNN "digikey description"
+F 12 "FX23L-80P-0.5SV8-ND" H 5825 3100 50  0001 L CNN "digikey part number"
+F 13 "7.15mm" H 5825 3200 50  0001 L CNN "height"
+F 14 "yes" H 5825 3300 50  0001 L CNN "is connector"
+F 15 "yes" H 5825 3400 50  0001 L CNN "is male"
+F 16 "Yes" H 5825 3500 50  0001 L CNN "lead free"
+F 17 "d772abcde60cf97a" H 5825 3600 50  0001 L CNN "library id"
+F 18 "Hirose" H 5825 3700 50  0001 L CNN "manufacturer"
+F 19 "798-FX23L-80P-0.5SV8" H 5825 3800 50  0001 L CNN "mouser part number"
+F 20 "80" H 5825 3900 50  0001 L CNN "number of contacts"
+F 21 "2" H 5825 4000 50  0001 L CNN "number of rows"
+F 22 "HDR80" H 5825 4100 50  0001 L CNN "package"
+F 23 "0.5mm" H 5825 4200 50  0001 L CNN "pitch"
+F 24 "Yes" H 5825 4300 50  0001 L CNN "rohs"
+F 25 "+105°C" H 5825 4400 50  0001 L CNN "temperature range high"
+F 26 "-55°C" H 5825 4500 50  0001 L CNN "temperature range low"
+F 27 "50/200V" H 5825 4600 50  0001 L CNN "voltage rating"
+F 28 "FX23L-80P-0.5SV8" H 5825 1600 50  0001 C CNN "Part Num"
+	3    5825 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L fx23l-80p-0.5sv8:FX23L-80P-0.5SV8 J?
+U 1 1 6379D156
+P 9475 1525
+AR Path="/6379D156" Ref="J?"  Part="1" 
+AR Path="/63770CE0/6379D156" Ref="J6"  Part="1" 
+F 0 "J6" H 9183 1890 50  0000 C CNN
+F 1 "FX23L-80P-0.5SV10" H 9183 1799 50  0000 C CNN
+F 2 "UVDL:Hirose-FX23L-80P-0.5SV8-MFG" H 9475 2025 50  0001 L CNN
+F 3 "https://www.hirose.com/product/document?clcode=CL0573-2004-3-00&productname=FX23L-80P-0.5SV8&series=FX23L&documenttype=2DDrawing&lang=en&documentid=0000956343" H 9475 2125 50  0001 L CNN
+F 4 "No" H 9475 2225 50  0001 L CNN "automotive"
+F 5 "Conn" H 9475 2325 50  0001 L CNN "category"
+F 6 "Gold,Nickel" H 9475 2425 50  0001 L CNN "contact material"
+F 7 "0.5/3A" H 9475 2525 50  0001 L CNN "current rating"
+F 8 "Connectors" H 9475 2625 50  0001 L CNN "device class L1"
+F 9 "Board to Board Connectors" H 9475 2725 50  0001 L CNN "device class L2"
+F 10 "unset" H 9475 2825 50  0001 L CNN "device class L3"
+F 11 "CONN HDR" H 9475 2925 50  0001 L CNN "digikey description"
+F 12 "FX23L-80P-0.5SV8-ND" H 9475 3025 50  0001 L CNN "digikey part number"
+F 13 "7.15mm" H 9475 3125 50  0001 L CNN "height"
+F 14 "yes" H 9475 3225 50  0001 L CNN "is connector"
+F 15 "yes" H 9475 3325 50  0001 L CNN "is male"
+F 16 "Yes" H 9475 3425 50  0001 L CNN "lead free"
+F 17 "d772abcde60cf97a" H 9475 3525 50  0001 L CNN "library id"
+F 18 "Hirose" H 9475 3625 50  0001 L CNN "manufacturer"
+F 19 "798-FX23L-80P-0.5SV8" H 9475 3725 50  0001 L CNN "mouser part number"
+F 20 "80" H 9475 3825 50  0001 L CNN "number of contacts"
+F 21 "2" H 9475 3925 50  0001 L CNN "number of rows"
+F 22 "HDR80" H 9475 4025 50  0001 L CNN "package"
+F 23 "0.5mm" H 9475 4125 50  0001 L CNN "pitch"
+F 24 "Yes" H 9475 4225 50  0001 L CNN "rohs"
+F 25 "+105°C" H 9475 4325 50  0001 L CNN "temperature range high"
+F 26 "-55°C" H 9475 4425 50  0001 L CNN "temperature range low"
+F 27 "50/200V" H 9475 4525 50  0001 L CNN "voltage rating"
+F 28 "FX23L-80P-0.5SV8" H 9475 1525 50  0001 C CNN "Part Num"
+	1    9475 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L fx23l-80p-0.5sv8:FX23L-80P-0.5SV8 J?
+U 3 1 6379D192
+P 14375 1625
+AR Path="/6379D192" Ref="J?"  Part="3" 
+AR Path="/63770CE0/6379D192" Ref="J6"  Part="3" 
+F 0 "J6" H 13983 1990 50  0000 C CNN
+F 1 "FX23L-80P-0.5SV10" H 13983 1899 50  0000 C CNN
+F 2 "UVDL:Hirose-FX23L-80P-0.5SV8-MFG" H 14375 2125 50  0001 L CNN
+F 3 "https://www.hirose.com/product/document?clcode=CL0573-2004-3-00&productname=FX23L-80P-0.5SV8&series=FX23L&documenttype=2DDrawing&lang=en&documentid=0000956343" H 14375 2225 50  0001 L CNN
+F 4 "No" H 14375 2325 50  0001 L CNN "automotive"
+F 5 "Conn" H 14375 2425 50  0001 L CNN "category"
+F 6 "Gold,Nickel" H 14375 2525 50  0001 L CNN "contact material"
+F 7 "0.5/3A" H 14375 2625 50  0001 L CNN "current rating"
+F 8 "Connectors" H 14375 2725 50  0001 L CNN "device class L1"
+F 9 "Board to Board Connectors" H 14375 2825 50  0001 L CNN "device class L2"
+F 10 "unset" H 14375 2925 50  0001 L CNN "device class L3"
+F 11 "CONN HDR" H 14375 3025 50  0001 L CNN "digikey description"
+F 12 "FX23L-80P-0.5SV8-ND" H 14375 3125 50  0001 L CNN "digikey part number"
+F 13 "7.15mm" H 14375 3225 50  0001 L CNN "height"
+F 14 "yes" H 14375 3325 50  0001 L CNN "is connector"
+F 15 "yes" H 14375 3425 50  0001 L CNN "is male"
+F 16 "Yes" H 14375 3525 50  0001 L CNN "lead free"
+F 17 "d772abcde60cf97a" H 14375 3625 50  0001 L CNN "library id"
+F 18 "Hirose" H 14375 3725 50  0001 L CNN "manufacturer"
+F 19 "798-FX23L-80P-0.5SV8" H 14375 3825 50  0001 L CNN "mouser part number"
+F 20 "80" H 14375 3925 50  0001 L CNN "number of contacts"
+F 21 "2" H 14375 4025 50  0001 L CNN "number of rows"
+F 22 "HDR80" H 14375 4125 50  0001 L CNN "package"
+F 23 "0.5mm" H 14375 4225 50  0001 L CNN "pitch"
+F 24 "Yes" H 14375 4325 50  0001 L CNN "rohs"
+F 25 "+105°C" H 14375 4425 50  0001 L CNN "temperature range high"
+F 26 "-55°C" H 14375 4525 50  0001 L CNN "temperature range low"
+F 27 "50/200V" H 14375 4625 50  0001 L CNN "voltage rating"
+F 28 "FX23L-80P-0.5SV8" H 14375 1625 50  0001 C CNN "Part Num"
+	3    14375 1625
+	1    0    0    -1  
+$EndComp
+Text GLabel 11950 2025 2    50   Output ~ 0
+SPI5_MISO_EXTERNAL1
+Text GLabel 11950 2225 2    50   Input ~ 0
+SPI5_MOSI_EXTERNAL1
+Text GLabel 11950 2425 2    50   Input ~ 0
+SPI5_CS1_EXTERNAL1
+Text GLabel 11950 2625 2    50   Input ~ 0
+SPI5_CS2_EXTERNAL1
+Text GLabel 11950 1825 2    50   Input ~ 0
+SPI5_SCK_EXTERNAL1
+Text GLabel 12000 3225 2    50   Input ~ 0
+GPS1_TX
+Text GLabel 12000 3425 2    50   Output ~ 0
+GPS1_RX
+Text GLabel 11975 3625 2    60   Input ~ 0
+FMU_I2C_1_SCL
+Text GLabel 11975 3825 2    60   BiDi ~ 0
+FMU_I2C_1_SDA
+$Comp
+L cube_base:+VDD_5V_PERIPH #PWR?
+U 1 1 63FC2419
+P 13000 1625
+AR Path="/5F9C0FE0/5F9C104C/63FC2419" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC2419" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC2419" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC2419" Ref="#PWR044"  Part="1" 
+F 0 "#PWR044" H 13000 1475 50  0001 C CNN
+F 1 "+VDD_5V_PERIPH" H 13015 1798 50  0000 C CNN
+F 2 "" H 13000 1625 50  0001 C CNN
+F 3 "" H 13000 1625 50  0001 C CNN
+	1    13000 1625
+	-1   0    0    -1  
+$EndComp
+$Comp
+L uvdl:+VDD_5V_RADIO #PWR?
+U 1 1 63FC2447
+P 13025 5200
+AR Path="/5F9C0FE0/5F9C104C/63FC2447" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC2447" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC2447" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC2447" Ref="#PWR045"  Part="1" 
+F 0 "#PWR045" H 13025 5050 50  0001 C CNN
+F 1 "+VDD_5V_RADIO" H 13375 5250 50  0000 C CNN
+F 2 "" H 13025 5200 50  0001 C CNN
+F 3 "" H 13025 5200 50  0001 C CNN
+	1    13025 5200
+	1    0    0    -1  
+$EndComp
+Text GLabel 11975 5425 2    50   Input ~ 0
+RC_INPUT
+$Comp
+<<<<<<< HEAD
+L breakout_pixc4_jetson-rescue:+5V-archangel #PWR?
+U 1 1 63FC251F
+P 6000 1575
+AR Path="/63FC251F" Ref="#PWR?"  Part="1" 
+=======
+L breakout_pixc4_jetson-rescue:+5V-archangel #PWR026
+U 1 1 63FC251F
+P 6000 1575
+AR Path="/63FC251F" Ref="#PWR026"  Part="1" 
+>>>>>>> ddcb2b96df3d38dd235f91614cde3d00a823ff6a
+AR Path="/63770CE0/63FC251F" Ref="#PWR026"  Part="1" 
+F 0 "#PWR026" H 6000 1425 50  0001 C CNN
+F 1 "+5V" H 6015 1748 50  0000 C CNN
+F 2 "" H 6000 1575 50  0001 C CNN
+F 3 "" H 6000 1575 50  0001 C CNN
+	1    6000 1575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5725 1800 6000 1800
+Wire Wire Line
+	6000 1800 6000 1600
+Connection ~ 6000 1600
+Wire Wire Line
+	6000 1600 6000 1575
+Wire Wire Line
+	5725 1600 6000 1600
+$Comp
+L custom_power:GND #PWR?
+U 1 1 63FC252A
+P 6000 2225
+AR Path="/5F9C0FE0/5F9C104C/63FC252A" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC252A" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC252A" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC252A" Ref="#PWR027"  Part="1" 
+F 0 "#PWR027" H 6000 1975 50  0001 C CNN
+F 1 "GND" H 6150 2175 50  0000 C CNN
+F 2 "" H 6000 2225 50  0000 C CNN
+F 3 "" H 6000 2225 50  0000 C CNN
+	1    6000 2225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5725 2000 6000 2000
+Wire Wire Line
+	6000 2000 6000 2200
+Wire Wire Line
+	5725 2200 6000 2200
+Connection ~ 6000 2200
+Wire Wire Line
+	6000 2200 6000 2225
+$Comp
+L custom_power:GND #PWR?
+U 1 1 63FC2536
+P 6000 2850
+AR Path="/5F9C0FE0/5F9C104C/63FC2536" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC2536" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC2536" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC2536" Ref="#PWR028"  Part="1" 
+F 0 "#PWR028" H 6000 2600 50  0001 C CNN
+F 1 "GND" H 6150 2800 50  0000 C CNN
+F 2 "" H 6000 2850 50  0000 C CNN
+F 3 "" H 6000 2850 50  0000 C CNN
+	1    6000 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5725 2500 6000 2500
+Wire Wire Line
+	6000 2500 6000 2700
+Connection ~ 6000 2700
+Wire Wire Line
+	6000 2700 6000 2850
+Wire Wire Line
+	5725 2700 6000 2700
+$Comp
+<<<<<<< HEAD
+L breakout_pixc4_jetson-rescue:+5V-archangel #PWR?
+U 1 1 63FC2541
+P 14550 1600
+AR Path="/63FC2541" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC2541" Ref="#PWR049"  Part="1" 
+F 0 "#PWR049" H 14550 1450 50  0001 C CNN
+=======
+L breakout_pixc4_jetson-rescue:+5V-archangel #PWR044
+U 1 1 63FC2541
+P 14550 1600
+AR Path="/63FC2541" Ref="#PWR044"  Part="1" 
+AR Path="/63770CE0/63FC2541" Ref="#PWR044"  Part="1" 
+F 0 "#PWR044" H 14550 1450 50  0001 C CNN
+>>>>>>> ddcb2b96df3d38dd235f91614cde3d00a823ff6a
+F 1 "+5V" H 14565 1773 50  0000 C CNN
+F 2 "" H 14550 1600 50  0001 C CNN
+F 3 "" H 14550 1600 50  0001 C CNN
+	1    14550 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14275 1825 14550 1825
+Wire Wire Line
+	14550 1825 14550 1625
+Connection ~ 14550 1625
+Wire Wire Line
+	14550 1625 14550 1600
+Wire Wire Line
+	14275 1625 14550 1625
+$Comp
+L custom_power:GND #PWR?
+U 1 1 63FC254C
+P 14550 2250
+AR Path="/5F9C0FE0/5F9C104C/63FC254C" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC254C" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC254C" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC254C" Ref="#PWR050"  Part="1" 
+F 0 "#PWR050" H 14550 2000 50  0001 C CNN
+F 1 "GND" H 14700 2200 50  0000 C CNN
+F 2 "" H 14550 2250 50  0000 C CNN
+F 3 "" H 14550 2250 50  0000 C CNN
+	1    14550 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14275 2025 14550 2025
+Wire Wire Line
+	14550 2025 14550 2225
+Wire Wire Line
+	14275 2225 14550 2225
+Connection ~ 14550 2225
+Wire Wire Line
+	14550 2225 14550 2250
+$Comp
+L custom_power:GND #PWR?
+U 1 1 63FC2557
+P 14550 2875
+AR Path="/5F9C0FE0/5F9C104C/63FC2557" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC2557" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC2557" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC2557" Ref="#PWR051"  Part="1" 
+F 0 "#PWR051" H 14550 2625 50  0001 C CNN
+F 1 "GND" H 14700 2825 50  0000 C CNN
+F 2 "" H 14550 2875 50  0000 C CNN
+F 3 "" H 14550 2875 50  0000 C CNN
+	1    14550 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14275 2525 14550 2525
+Wire Wire Line
+	14550 2525 14550 2725
+Connection ~ 14550 2725
+Wire Wire Line
+	14550 2725 14550 2875
+Wire Wire Line
+	14275 2725 14550 2725
+$Comp
+L custom_power:GND #PWR?
+U 1 1 63FC256D
+P 11975 2850
+AR Path="/5F9C0FE0/5F9C104C/63FC256D" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC256D" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC256D" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC256D" Ref="#PWR038"  Part="1" 
+F 0 "#PWR038" H 11975 2600 50  0001 C CNN
+F 1 "GND" H 12125 2800 50  0000 C CNN
+F 2 "" H 11975 2850 50  0000 C CNN
+F 3 "" H 11975 2850 50  0000 C CNN
+	1    11975 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11675 2825 11975 2825
+Wire Wire Line
+	11975 2825 11975 2850
+Text GLabel 12100 4225 2    50   Input ~ 0
+SAFETY_SWITCH_IN
+Text GLabel 11975 4425 2    50   Input ~ 0
+~SAFETY_SWITCH_LED_OUT
+Wire Wire Line
+	12000 3225 11675 3225
+Wire Wire Line
+	12000 3425 11675 3425
+Wire Wire Line
+	11975 3625 11675 3625
+Wire Wire Line
+	11975 3825 11675 3825
+$Comp
+L custom_power:GND #PWR?
+U 1 1 63FC25CE
+P 12000 4025
+AR Path="/5F9C0FE0/5F9C104C/63FC25CE" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC25CE" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC25CE" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC25CE" Ref="#PWR040"  Part="1" 
+F 0 "#PWR040" H 12000 3775 50  0001 C CNN
+F 1 "GND" H 11850 4000 50  0000 C CNN
+F 2 "" H 12000 4025 50  0000 C CNN
+F 3 "" H 12000 4025 50  0000 C CNN
+	1    12000 4025
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11675 4025 12000 4025
+Text GLabel 11975 4825 2    50   Input ~ 0
+BUZZER_OUT
+Wire Wire Line
+	11675 4225 12100 4225
+Wire Wire Line
+	11675 4425 11975 4425
+Wire Wire Line
+	11675 4825 11975 4825
+$Comp
+L custom_power:GND #PWR?
+U 1 1 63FC25D9
+P 12000 5025
+AR Path="/5F9C0FE0/5F9C104C/63FC25D9" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC25D9" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC25D9" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC25D9" Ref="#PWR041"  Part="1" 
+F 0 "#PWR041" H 12000 4775 50  0001 C CNN
+F 1 "GND" H 11850 4975 50  0000 C CNN
+F 2 "" H 12000 5025 50  0000 C CNN
+F 3 "" H 12000 5025 50  0000 C CNN
+	1    12000 5025
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11675 5025 12000 5025
+Wire Wire Line
+	11675 5625 11975 5625
+Wire Wire Line
+	11975 5425 11675 5425
+$Comp
+L custom_power:GND #PWR?
+U 1 1 63FC25E3
+P 11975 5625
+AR Path="/5F9C0FE0/5F9C104C/63FC25E3" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC25E3" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC25E3" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC25E3" Ref="#PWR039"  Part="1" 
+F 0 "#PWR039" H 11975 5375 50  0001 C CNN
+F 1 "GND" H 11850 5600 50  0000 C CNN
+F 2 "" H 11975 5625 50  0000 C CNN
+F 3 "" H 11975 5625 50  0000 C CNN
+	1    11975 5625
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13025 5225 13025 5200
+Wire Wire Line
+	11950 1825 11675 1825
+Wire Wire Line
+	11675 2025 11950 2025
+Wire Wire Line
+	11950 2225 11675 2225
+Wire Wire Line
+	11950 2425 11675 2425
+Wire Wire Line
+	11675 2625 11950 2625
+Wire Wire Line
+	13000 3025 13000 1625
+Wire Wire Line
+	11675 3025 13000 3025
+Text GLabel 9625 4925 2    60   Input ~ 0
+FMU_I2C_2_SCL
+Text GLabel 9625 5125 2    60   Input ~ 0
+FMU_I2C_2_SDA
+Text GLabel 9575 1525 2    60   Output ~ 0
+IO-CH1-PROT
+Text GLabel 9575 1725 2    60   Output ~ 0
+IO-CH2-PROT
+Text GLabel 9575 1925 2    60   Output ~ 0
+IO-CH3-PROT
+Text GLabel 9575 2125 2    60   Output ~ 0
+IO-CH4-PROT
+Text GLabel 9575 2325 2    60   Output ~ 0
+IO-CH5-PROT
+Text GLabel 9575 2525 2    60   Output ~ 0
+IO-CH6-PROT
+Text GLabel 9575 2725 2    60   Output ~ 0
+IO-CH7-PROT
+Text GLabel 9575 2925 2    60   Output ~ 0
+IO-CH8-PROT
+Text GLabel 9575 3325 2    60   Output ~ 0
+FMU-CH2-PROT
+Text GLabel 9575 3125 2    60   Output ~ 0
+FMU-CH1-PROT
+Text GLabel 9650 6725 2    60   Input ~ 0
+CAN_L_1-
+Text GLabel 9650 6525 2    60   Input ~ 0
+CAN_H_1+
+Text GLabel 9575 3525 2    60   Output ~ 0
+FMU-CH3-PROT
+Text GLabel 9575 3725 2    60   Output ~ 0
+FMU-CH4-PROT
+Text GLabel 9575 3925 2    60   Output ~ 0
+FMU-CH5-PROT
+Text GLabel 9575 4125 2    60   Output ~ 0
+FMU-CH6-PROT
+Text GLabel 9625 5725 2    60   Input ~ 0
+CAN_H_2+
+Text GLabel 9625 5925 2    60   Input ~ 0
+CAN_L_2-
+Text GLabel 9775 8325 2    50   Input ~ 0
+BATT_CURRENT_SENS_PROT
+Text GLabel 9775 8525 2    50   Input ~ 0
+BATT_VOLTAGE_SENS_PROT
+Text GLabel 9700 7925 2    50   Input ~ 0
+TELEM1_TX
+Text GLabel 9675 7725 2    50   Output ~ 0
+TELEM1_RX
+Text GLabel 9675 7525 2    50   Input ~ 0
+TELEM1_CTS
+Text GLabel 9675 7325 2    50   Output ~ 0
+TELEM1_RTS
+$Comp
+L custom_power:GND #PWR?
+U 1 1 63FC2562
+P 9650 4575
+AR Path="/5F9C0FE0/5F9C104C/63FC2562" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC2562" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC2562" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC2562" Ref="#PWR032"  Part="1" 
+F 0 "#PWR032" H 9650 4325 50  0001 C CNN
+F 1 "GND" H 9800 4525 50  0000 C CNN
+F 2 "" H 9650 4575 50  0000 C CNN
+F 3 "" H 9650 4575 50  0000 C CNN
+	1    9650 4575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9375 4325 9650 4325
+Wire Wire Line
+	9650 4325 9650 4525
+Wire Wire Line
+	9375 4525 9650 4525
+Connection ~ 9650 4525
+Wire Wire Line
+	9650 4525 9650 4575
+$Comp
+L cube_base:+VDD_5V_PERIPH #PWR?
+U 1 1 63FC2575
+P 10475 4500
+AR Path="/5F9C0FE0/5F9C104C/63FC2575" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC2575" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC2575" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC2575" Ref="#PWR037"  Part="1" 
+F 0 "#PWR037" H 10475 4350 50  0001 C CNN
+F 1 "+VDD_5V_PERIPH" H 10550 4675 50  0000 C CNN
+F 2 "" H 10475 4500 50  0001 C CNN
+F 3 "" H 10475 4500 50  0001 C CNN
+	1    10475 4500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L custom_power:GND #PWR?
+U 1 1 63FC258C
+P 9625 5350
+AR Path="/5F9C0FE0/5F9C104C/63FC258C" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC258C" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC258C" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC258C" Ref="#PWR029"  Part="1" 
+F 0 "#PWR029" H 9625 5100 50  0001 C CNN
+F 1 "GND" H 9775 5300 50  0000 C CNN
+F 2 "" H 9625 5350 50  0000 C CNN
+F 3 "" H 9625 5350 50  0000 C CNN
+	1    9625 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_power:GND #PWR?
+U 1 1 63FC2596
+P 9625 6150
+AR Path="/5F9C0FE0/5F9C104C/63FC2596" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC2596" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC2596" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC2596" Ref="#PWR030"  Part="1" 
+F 0 "#PWR030" H 9625 5900 50  0001 C CNN
+F 1 "GND" H 9775 6100 50  0000 C CNN
+F 2 "" H 9625 6150 50  0000 C CNN
+F 3 "" H 9625 6150 50  0000 C CNN
+	1    9625 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 6525 9375 6525
+Wire Wire Line
+	9375 6725 9650 6725
+$Comp
+L custom_power:GND #PWR?
+U 1 1 63FC25A0
+P 9625 6950
+AR Path="/5F9C0FE0/5F9C104C/63FC25A0" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC25A0" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC25A0" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC25A0" Ref="#PWR031"  Part="1" 
+F 0 "#PWR031" H 9625 6700 50  0001 C CNN
+F 1 "GND" H 9775 6900 50  0000 C CNN
+F 2 "" H 9625 6950 50  0000 C CNN
+F 3 "" H 9625 6950 50  0000 C CNN
+	1    9625 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9675 7325 9375 7325
+Wire Wire Line
+	9375 7525 9675 7525
+Wire Wire Line
+	9375 7725 9675 7725
+Wire Wire Line
+	9700 7925 9375 7925
+$Comp
+L custom_power:GND #PWR?
+U 1 1 63FC25AC
+P 9650 8150
+AR Path="/5F9C0FE0/5F9C104C/63FC25AC" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC25AC" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC25AC" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC25AC" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 9650 7900 50  0001 C CNN
+F 1 "GND" H 9450 8125 50  0000 C CNN
+F 2 "" H 9650 8150 50  0000 C CNN
+F 3 "" H 9650 8150 50  0000 C CNN
+	1    9650 8150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9375 8125 9650 8125
+Wire Wire Line
+	9650 8125 9650 8150
+Wire Wire Line
+	9375 8325 9775 8325
+Wire Wire Line
+	9775 8525 9375 8525
+Wire Wire Line
+	10475 4500 10475 4725
+Wire Wire Line
+	9375 4725 10475 4725
+Wire Wire Line
+	10475 4725 10475 5525
+Wire Wire Line
+	9375 5525 10475 5525
+Connection ~ 10475 4725
+Wire Wire Line
+	10475 5525 10475 6325
+Wire Wire Line
+	9375 6325 10475 6325
+Connection ~ 10475 5525
+Wire Wire Line
+	10475 6325 10475 7125
+Wire Wire Line
+	9375 7125 10475 7125
+Connection ~ 10475 6325
+$Comp
+L custom_power:GND #PWR?
+U 1 1 63FC26E1
+P 9675 8775
+AR Path="/5F9C0FE0/5F9C104C/63FC26E1" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC26E1" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC26E1" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC26E1" Ref="#PWR034"  Part="1" 
+F 0 "#PWR034" H 9675 8525 50  0001 C CNN
+F 1 "GND" H 9475 8750 50  0000 C CNN
+F 2 "" H 9675 8775 50  0000 C CNN
+F 3 "" H 9675 8775 50  0000 C CNN
+	1    9675 8775
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9375 8725 9675 8725
+Wire Wire Line
+	9675 8725 9675 8775
+$Comp
+L cube_base:+VDD_SERVO #PWR036
+U 1 1 63FC26E9
+P 10200 8875
+F 0 "#PWR036" H 10200 8725 50  0001 C CNN
+F 1 "+VDD_SERVO" H 10215 9048 50  0000 C CNN
+F 2 "" H 10200 8875 50  0001 C CNN
+F 3 "" H 10200 8875 50  0001 C CNN
+	1    10200 8875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9375 8925 10200 8925
+Wire Wire Line
+	10200 8925 10200 8875
+$Comp
+L custom_power:GND #PWR?
+U 1 1 63FC26F1
+P 9675 9150
+AR Path="/5F9C0FE0/5F9C104C/63FC26F1" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC26F1" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC26F1" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC26F1" Ref="#PWR035"  Part="1" 
+F 0 "#PWR035" H 9675 8900 50  0001 C CNN
+F 1 "GND" H 9475 9125 50  0000 C CNN
+F 2 "" H 9675 9150 50  0000 C CNN
+F 3 "" H 9675 9150 50  0000 C CNN
+	1    9675 9150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9375 9125 9675 9125
+Wire Wire Line
+	9675 9125 9675 9150
+Text Notes 10025 9175 0    50   ~ 0
+ONLY USED TO \nSENSE VSERVO VOLTAGE
+Text Notes 11075 5550 1    50   ~ 0
+RC IN
+Text Notes 11075 4050 1    50   ~ 0
+EXT GPS/COMPASS
+Wire Wire Line
+	9575 4125 9375 4125
+Wire Wire Line
+	9375 3925 9575 3925
+Wire Wire Line
+	9575 3725 9375 3725
+Wire Wire Line
+	9375 3525 9575 3525
+Wire Wire Line
+	9575 3325 9375 3325
+Wire Wire Line
+	9375 3125 9575 3125
+Wire Wire Line
+	9575 2925 9375 2925
+Wire Wire Line
+	9375 2725 9575 2725
+Wire Wire Line
+	9575 2525 9375 2525
+Wire Wire Line
+	9375 2325 9575 2325
+Wire Wire Line
+	9575 2125 9375 2125
+Wire Wire Line
+	9375 1925 9575 1925
+Wire Wire Line
+	9375 1725 9575 1725
+Wire Wire Line
+	9575 1525 9375 1525
+Wire Wire Line
+	9375 6925 9625 6925
+Wire Wire Line
+	9625 6925 9625 6950
+Wire Wire Line
+	9625 6125 9625 6150
+Wire Wire Line
+	9375 6125 9625 6125
+Wire Wire Line
+	9625 5925 9375 5925
+Wire Wire Line
+	9375 5725 9625 5725
+Wire Wire Line
+	9625 5325 9625 5350
+Wire Wire Line
+	9375 5325 9625 5325
+Wire Wire Line
+	9375 5125 9625 5125
+Wire Wire Line
+	9625 4925 9375 4925
+Text Notes 11125 2550 1    50   ~ 0
+OPTIONAL SPI EXTERNAL\nSENSOR
+Text GLabel 11975 4625 2    50   Input ~ 0
+SAFETY_VDD
+Wire Wire Line
+	11675 5225 13025 5225
+Wire Wire Line
+	11675 1625 13000 1625
+Connection ~ 13000 1625
+NoConn ~ 9375 9325
+Text GLabel 3825 7225 2    50   Input ~ 0
+PORT_VBUS_2
+Text GLabel 3675 3825 2    50   Input ~ 0
+XAVIER_I2C1_SCL
+Text GLabel 3675 3625 2    50   Input ~ 0
+XAVIER_I2C1_SDA
+Text GLabel 3675 4425 2    50   Input ~ 0
+XAVIER_I2C2_SCL
+Text GLabel 3675 4225 2    50   Input ~ 0
+XAVIER_I2C2_SDA
+$Comp
+L custom_power:+1V8 #PWR?
+U 1 1 6464945B
+P 3925 8800
+AR Path="/5FE45638/6464945B" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/6464945B" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/6464945B" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/6464945B" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 3925 8650 50  0001 C CNN
+F 1 "+1V8" H 4050 8875 50  0000 C CNN
+F 2 "" H 3925 8800 50  0000 C CNN
+F 3 "" H 3925 8800 50  0000 C CNN
+	1    3925 8800
+	1    0    0    -1  
+$EndComp
+Text GLabel 3775 5825 2    50   Input ~ 0
+USB4+
+Text GLabel 3775 6025 2    50   Input ~ 0
+USB4-
+Text GLabel 3725 5025 2    50   Input ~ 0
+USB5+
+Text GLabel 3725 5225 2    50   Input ~ 0
+USB5-
+Text GLabel 3775 5625 2    50   Input ~ 0
+PORT_VBUS_4
+Text GLabel 3725 4825 2    50   Input ~ 0
+PORT_VBUS_5
+Text GLabel 3825 7425 2    50   Input ~ 0
+USB2+
+Text GLabel 3825 7625 2    50   Input ~ 0
+USB2-
+Text GLabel 3800 6625 2    50   Input ~ 0
+USB3+
+Text GLabel 3800 6825 2    50   Input ~ 0
+USB3-
+Text GLabel 3800 6425 2    50   Input ~ 0
+PORT_VBUS_3
+$Comp
+L archangel:3V3_SYS #PWR?
+U 1 1 64649470
+P 3925 9225
+AR Path="/5FE45638/64649470" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/64649470" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/64649470" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/64649470" Ref="#PWR025"  Part="1" 
+F 0 "#PWR025" H 3925 9075 50  0001 C CNN
+F 1 "3V3_SYS" H 4125 9325 50  0000 C CNN
+F 2 "" H 3925 9225 50  0001 C CNN
+F 3 "" H 3925 9225 50  0001 C CNN
+	1    3925 9225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 8825 3925 8825
+Wire Wire Line
+	3925 8825 3925 8800
+Wire Wire Line
+	3500 9025 3925 9025
+Wire Wire Line
+	3925 9025 3925 8825
+Connection ~ 3925 8825
+Wire Wire Line
+	3925 9425 3925 9225
+Connection ~ 3925 9225
+Wire Wire Line
+	3500 9425 3925 9425
+Wire Wire Line
+	3500 9225 3925 9225
+$Comp
+L custom_power:GND #PWR?
+U 1 1 64649483
+P 3650 2425
+AR Path="/5F9C0FE0/5F9C104C/64649483" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/64649483" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/64649483" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/64649483" Ref="#PWR016"  Part="1" 
+F 0 "#PWR016" H 3650 2175 50  0001 C CNN
+F 1 "GND" H 3800 2375 50  0000 C CNN
+F 2 "" H 3650 2425 50  0000 C CNN
+F 3 "" H 3650 2425 50  0000 C CNN
+	1    3650 2425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2425 3650 2425
+Wire Wire Line
+	3625 1625 3500 1625
+Wire Wire Line
+	3500 1825 3625 1825
+Wire Wire Line
+	3625 2025 3500 2025
+Wire Wire Line
+	3625 2225 3500 2225
+Wire Wire Line
+	3650 2625 3500 2625
+Wire Wire Line
+	3500 2825 3650 2825
+Wire Wire Line
+	3500 3225 3650 3225
+Wire Wire Line
+	3500 3025 3650 3025
+$Comp
+L custom_power:GND #PWR?
+U 1 1 64649496
+P 3650 3425
+AR Path="/5F9C0FE0/5F9C104C/64649496" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/64649496" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/64649496" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/64649496" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 3650 3175 50  0001 C CNN
+F 1 "GND" H 3800 3375 50  0000 C CNN
+F 2 "" H 3650 3425 50  0000 C CNN
+F 3 "" H 3650 3425 50  0000 C CNN
+	1    3650 3425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3425 3500 3425
+$Comp
+L custom_power:GND #PWR?
+U 1 1 646494A1
+P 3650 4050
+AR Path="/5F9C0FE0/5F9C104C/646494A1" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/646494A1" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/646494A1" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/646494A1" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 3650 3800 50  0001 C CNN
+F 1 "GND" H 3800 4000 50  0000 C CNN
+F 2 "" H 3650 4050 50  0000 C CNN
+F 3 "" H 3650 4050 50  0000 C CNN
+	1    3650 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 4025 3650 4025
+Wire Wire Line
+	3650 4025 3650 4050
+Wire Wire Line
+	3675 3625 3500 3625
+Wire Wire Line
+	3500 3825 3675 3825
+Wire Wire Line
+	3675 4225 3500 4225
+Wire Wire Line
+	3675 4425 3500 4425
+$Comp
+L custom_power:GND #PWR?
+U 1 1 646494B1
+P 3650 4625
+AR Path="/5F9C0FE0/5F9C104C/646494B1" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/646494B1" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/646494B1" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/646494B1" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 3650 4375 50  0001 C CNN
+F 1 "GND" H 3800 4575 50  0000 C CNN
+F 2 "" H 3650 4625 50  0000 C CNN
+F 3 "" H 3650 4625 50  0000 C CNN
+	1    3650 4625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4625 3500 4625
+Wire Wire Line
+	3725 4825 3500 4825
+Wire Wire Line
+	3725 5025 3500 5025
+Wire Wire Line
+	3725 5225 3500 5225
+$Comp
+L custom_power:GND #PWR?
+U 1 1 646494BF
+P 3675 5425
+AR Path="/5F9C0FE0/5F9C104C/646494BF" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/646494BF" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/646494BF" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/646494BF" Ref="#PWR020"  Part="1" 
+F 0 "#PWR020" H 3675 5175 50  0001 C CNN
+F 1 "GND" H 3825 5375 50  0000 C CNN
+F 2 "" H 3675 5425 50  0000 C CNN
+F 3 "" H 3675 5425 50  0000 C CNN
+	1    3675 5425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3675 5425 3500 5425
+Wire Wire Line
+	3500 5825 3775 5825
+Wire Wire Line
+	3775 6025 3500 6025
+Wire Wire Line
+	3675 6225 3500 6225
+$Comp
+L custom_power:GND #PWR?
+U 1 1 646494CD
+P 3675 6225
+AR Path="/5F9C0FE0/5F9C104C/646494CD" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/646494CD" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/646494CD" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/646494CD" Ref="#PWR021"  Part="1" 
+F 0 "#PWR021" H 3675 5975 50  0001 C CNN
+F 1 "GND" H 3825 6175 50  0000 C CNN
+F 2 "" H 3675 6225 50  0000 C CNN
+F 3 "" H 3675 6225 50  0000 C CNN
+	1    3675 6225
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_power:GND #PWR?
+U 1 1 646494D7
+P 3700 7025
+AR Path="/5F9C0FE0/5F9C104C/646494D7" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/646494D7" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/646494D7" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/646494D7" Ref="#PWR022"  Part="1" 
+F 0 "#PWR022" H 3700 6775 50  0001 C CNN
+F 1 "GND" H 3850 6975 50  0000 C CNN
+F 2 "" H 3700 7025 50  0000 C CNN
+F 3 "" H 3700 7025 50  0000 C CNN
+	1    3700 7025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 6425 3500 6425
+Wire Wire Line
+	3500 6625 3800 6625
+Wire Wire Line
+	3500 6825 3800 6825
+Wire Wire Line
+	3500 7025 3700 7025
+Wire Wire Line
+	3825 7225 3500 7225
+Wire Wire Line
+	3500 7425 3825 7425
+Wire Wire Line
+	3825 7625 3500 7625
+$Comp
+L custom_power:GND #PWR?
+U 1 1 646494E8
+P 3700 7825
+AR Path="/5F9C0FE0/5F9C104C/646494E8" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/646494E8" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/646494E8" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/646494E8" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 3700 7575 50  0001 C CNN
+F 1 "GND" H 3850 7775 50  0000 C CNN
+F 2 "" H 3700 7825 50  0000 C CNN
+F 3 "" H 3700 7825 50  0000 C CNN
+	1    3700 7825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 7825 3500 7825
+Text GLabel 3625 1625 2    50   Input ~ 0
+ETH_SPARE_TX_N
+Text GLabel 3625 1825 2    50   Input ~ 0
+ETH_SPARE_TX_P
+Text GLabel 3625 2025 2    50   Input ~ 0
+ETH_SPARE_RX_N
+Text GLabel 3625 2225 2    50   Input ~ 0
+ETH_SPARE_RX_P
+Text Notes 4525 3150 1    50   ~ 0
+ADD MAGNETICS TO CARRIER BOARD
+Text GLabel 3650 2625 2    50   Input ~ 0
+ETH_RADIO_RX_P
+Text GLabel 3650 2825 2    50   Input ~ 0
+ETH_RADIO_RX_N
+Text GLabel 3650 3025 2    50   Input ~ 0
+ETH_RADIO_TX_P
+Text GLabel 3650 3225 2    50   Input ~ 0
+ETH_RADIO_TX_N
+Wire Wire Line
+	3500 5625 3775 5625
+Wire Wire Line
+	1775 9200 1775 9225
+Wire Wire Line
+	1625 9200 1775 9200
+$Comp
+L custom_power:GND #PWR?
+U 1 1 63FC265D
+P 1775 9225
+AR Path="/5F9C0FE0/5F9C104C/63FC265D" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC265D" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC265D" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC265D" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 1775 8975 50  0001 C CNN
+F 1 "GND" H 1925 9175 50  0000 C CNN
+F 2 "" H 1775 9225 50  0000 C CNN
+F 3 "" H 1775 9225 50  0000 C CNN
+	1    1775 9225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1625 9000 1825 9000
+Wire Wire Line
+	1825 8800 1625 8800
+Wire Wire Line
+	1625 8600 1775 8600
+Wire Wire Line
+	1825 8400 1625 8400
+Wire Wire Line
+	1625 8200 1825 8200
+Wire Wire Line
+	1825 8000 1625 8000
+Wire Wire Line
+	1625 7800 1825 7800
+Wire Wire Line
+	1825 7600 1625 7600
+$Comp
+L custom_power:GND #PWR?
+U 1 1 63FC2640
+P 1775 8600
+AR Path="/5F9C0FE0/5F9C104C/63FC2640" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC2640" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC2640" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC2640" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 1775 8350 50  0001 C CNN
+F 1 "GND" H 1925 8550 50  0000 C CNN
+F 2 "" H 1775 8600 50  0000 C CNN
+F 3 "" H 1775 8600 50  0000 C CNN
+	1    1775 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 7400 1750 7425
+Wire Wire Line
+	1625 7400 1750 7400
+Wire Wire Line
+	1625 7200 1825 7200
+Wire Wire Line
+	1825 7000 1625 7000
+Wire Wire Line
+	1625 6800 1825 6800
+Wire Wire Line
+	1825 6600 1625 6600
+Wire Wire Line
+	1825 6400 1625 6400
+$Comp
+L custom_power:GND #PWR?
+U 1 1 63FC2633
+P 1750 7425
+AR Path="/5F9C0FE0/5F9C104C/63FC2633" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC2633" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC2633" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC2633" Ref="#PWR012"  Part="1" 
+F 0 "#PWR012" H 1750 7175 50  0001 C CNN
+F 1 "GND" H 1900 7375 50  0000 C CNN
+F 2 "" H 1750 7425 50  0000 C CNN
+F 3 "" H 1750 7425 50  0000 C CNN
+	1    1750 7425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1725 6200 1625 6200
+Wire Wire Line
+	1800 6000 1625 6000
+Wire Wire Line
+	1625 5800 1800 5800
+Wire Wire Line
+	1725 5600 1625 5600
+Wire Wire Line
+	1800 5400 1625 5400
+Wire Wire Line
+	1625 5200 1800 5200
+Wire Wire Line
+	1725 5000 1625 5000
+Wire Wire Line
+	1625 4800 1800 4800
+Wire Wire Line
+	1800 4600 1625 4600
+Wire Wire Line
+	1625 4200 1800 4200
+Wire Wire Line
+	1800 4000 1625 4000
+Wire Wire Line
+	1800 3600 1625 3600
+Wire Wire Line
+	1800 3400 1625 3400
+Wire Wire Line
+	1800 3000 1625 3000
+Wire Wire Line
+	1625 2800 1800 2800
+Wire Wire Line
+	1625 2400 1825 2400
+Wire Wire Line
+	1825 2200 1625 2200
+$Comp
+L custom_power:GND #PWR?
+U 1 1 63FC261C
+P 1725 6200
+AR Path="/5F9C0FE0/5F9C104C/63FC261C" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC261C" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC261C" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC261C" Ref="#PWR011"  Part="1" 
+F 0 "#PWR011" H 1725 5950 50  0001 C CNN
+F 1 "GND" H 1875 6150 50  0000 C CNN
+F 2 "" H 1725 6200 50  0000 C CNN
+F 3 "" H 1725 6200 50  0000 C CNN
+	1    1725 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_power:GND #PWR?
+U 1 1 63FC2616
+P 1725 5600
+AR Path="/5F9C0FE0/5F9C104C/63FC2616" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC2616" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC2616" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC2616" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 1725 5350 50  0001 C CNN
+F 1 "GND" H 1875 5550 50  0000 C CNN
+F 2 "" H 1725 5600 50  0000 C CNN
+F 3 "" H 1725 5600 50  0000 C CNN
+	1    1725 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1625 2600 1725 2600
+Wire Wire Line
+	1625 3200 1725 3200
+Wire Wire Line
+	1625 3800 1725 3800
+$Comp
+L custom_power:GND #PWR?
+U 1 1 63FC260D
+P 1725 5000
+AR Path="/5F9C0FE0/5F9C104C/63FC260D" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC260D" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC260D" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC260D" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 1725 4750 50  0001 C CNN
+F 1 "GND" H 1875 4950 50  0000 C CNN
+F 2 "" H 1725 5000 50  0000 C CNN
+F 3 "" H 1725 5000 50  0000 C CNN
+	1    1725 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_power:GND #PWR?
+U 1 1 63FC2607
+P 1675 4400
+AR Path="/5F9C0FE0/5F9C104C/63FC2607" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC2607" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC2607" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC2607" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 1675 4150 50  0001 C CNN
+F 1 "GND" H 1825 4350 50  0000 C CNN
+F 2 "" H 1675 4400 50  0000 C CNN
+F 3 "" H 1675 4400 50  0000 C CNN
+	1    1675 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_power:GND #PWR?
+U 1 1 63FC2601
+P 1725 3800
+AR Path="/5F9C0FE0/5F9C104C/63FC2601" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC2601" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC2601" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC2601" Ref="#PWR08"  Part="1" 
+F 0 "#PWR08" H 1725 3550 50  0001 C CNN
+F 1 "GND" H 1875 3750 50  0000 C CNN
+F 2 "" H 1725 3800 50  0000 C CNN
+F 3 "" H 1725 3800 50  0000 C CNN
+	1    1725 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_power:GND #PWR?
+U 1 1 63FC25FB
+P 1725 3200
+AR Path="/5F9C0FE0/5F9C104C/63FC25FB" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC25FB" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC25FB" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC25FB" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 1725 2950 50  0001 C CNN
+F 1 "GND" H 1875 3150 50  0000 C CNN
+F 2 "" H 1725 3200 50  0000 C CNN
+F 3 "" H 1725 3200 50  0000 C CNN
+	1    1725 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_power:GND #PWR?
+U 1 1 63FC25F5
+P 1725 2600
+AR Path="/5F9C0FE0/5F9C104C/63FC25F5" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC25F5" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC25F5" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC25F5" Ref="#PWR06"  Part="1" 
+F 0 "#PWR06" H 1725 2350 50  0001 C CNN
+F 1 "GND" H 1875 2550 50  0000 C CNN
+F 2 "" H 1725 2600 50  0000 C CNN
+F 3 "" H 1725 2600 50  0000 C CNN
+	1    1725 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1825 2000 1825 2025
+Wire Wire Line
+	1625 2000 1825 2000
+$Comp
+L custom_power:GND #PWR?
+U 1 1 63FC25ED
+P 1825 2025
+AR Path="/5F9C0FE0/5F9C104C/63FC25ED" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/63FC25ED" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/63FC25ED" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/63FC25ED" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 1825 1775 50  0001 C CNN
+F 1 "GND" H 1975 1975 50  0000 C CNN
+F 2 "" H 1825 2025 50  0000 C CNN
+F 3 "" H 1825 2025 50  0000 C CNN
+	1    1825 2025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1625 1800 1800 1800
+Wire Wire Line
+	1800 1600 1625 1600
+Text GLabel 1800 1800 2    50   Input ~ 0
+XAVIER_CONSOLE_TX_OUT
+Text GLabel 1800 1600 2    50   Input ~ 0
+XAVIER_CONSOLE_RX_IN
+Text GLabel 1825 6600 2    50   Input ~ 0
+IRID_NA_3.3
+Text GLabel 1825 6800 2    50   Input ~ 0
+IRID_RING_3.3
+Text GLabel 1825 6400 2    50   Output ~ 0
+IRID_RX_OUT_3.3
+Text GLabel 1825 7000 2    50   Input ~ 0
+IRID_TX_IN_3.3
+Text GLabel 1825 7200 2    50   Input ~ 0
+IRID_ON_OFF_3.3
+Text GLabel 1825 8800 2    50   Input ~ 0
+GPIO10
+Text GLabel 1825 9000 2    50   Input ~ 0
+GPIO12
+Text GLabel 1800 2800 2    50   Input ~ 0
+CAM_MCLK
+Text GLabel 1825 8400 2    50   Input ~ 0
+AUDIO_MCLK
+Text GLabel 1825 8200 2    50   Input ~ 0
+I2S0_SCLK
+Text GLabel 1825 8000 2    50   Input ~ 0
+I2S0_FS
+Text GLabel 1825 7800 2    50   Input ~ 0
+I2S0_DIN
+Text GLabel 1825 7600 2    50   Input ~ 0
+I2S0_DOUT
+Text GLabel 1800 4800 2    50   Input ~ 0
+CAM1_D0_N
+Text GLabel 1800 4600 2    50   Input ~ 0
+CAM1_D0_P
+Text GLabel 1800 3600 2    50   Input ~ 0
+CAM1_D1_N
+Text GLabel 1800 3400 2    50   Input ~ 0
+CAM1_D1_P
+Text GLabel 1800 4000 2    50   Input ~ 0
+CAM1_C_P
+Text GLabel 1800 4200 2    50   Input ~ 0
+CAM1_C_N
+Text GLabel 1800 6000 2    50   Input ~ 0
+CAM1_D2_N
+Text GLabel 1800 5800 2    50   Input ~ 0
+CAM1_D2_P
+Text GLabel 1800 5400 2    50   Input ~ 0
+CAM1_D3_N
+Text GLabel 1800 5200 2    50   Input ~ 0
+CAM1_D3_P
+Text GLabel 1800 3000 2    50   Input ~ 0
+CAM_GPIO
+Text GLabel 1825 2400 2    50   Input ~ 0
+CAM_SCL0
+Text GLabel 1825 2200 2    50   Input ~ 0
+CAM_SDA0
+Text Notes 11475 900  0    50   ~ 0
+FMU
+Text Notes 3200 1000 0    50   ~ 0
+JETSON
+Wire Wire Line
+	11975 4625 11675 4625
+NoConn ~ 3500 8025
+NoConn ~ 3500 8225
+NoConn ~ 3500 8425
+NoConn ~ 3500 8625
+NoConn ~ 1625 9400
+NoConn ~ 11675 9425
+NoConn ~ 11675 9225
+NoConn ~ 11675 9025
+NoConn ~ 11675 8825
+NoConn ~ 11675 8625
+NoConn ~ 11675 8425
+NoConn ~ 11675 8225
+NoConn ~ 11675 8025
+NoConn ~ 11675 7825
+<<<<<<< HEAD
+=======
+$Comp
+L breakout_pixc4_jetson-rescue:+5V-archangel #PWR0124
+U 1 1 6185BF12
+P 12400 5800
+AR Path="/6185BF12" Ref="#PWR0124"  Part="1" 
+AR Path="/63770CE0/6185BF12" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0124" H 12400 5650 50  0001 C CNN
+F 1 "+5V" H 12415 5973 50  0000 C CNN
+F 2 "" H 12400 5800 50  0001 C CNN
+F 3 "" H 12400 5800 50  0001 C CNN
+	1    12400 5800
+	1    0    0    -1  
+$EndComp
+>>>>>>> ddcb2b96df3d38dd235f91614cde3d00a823ff6a
+Wire Wire Line
+	11675 5825 12400 5825
+Wire Wire Line
+	12400 5825 12400 5800
+Wire Wire Line
+	11675 6025 12400 6025
+Wire Wire Line
+	12400 6025 12400 5825
+Connection ~ 12400 5825
+Wire Wire Line
+	11675 6225 12400 6225
+Wire Wire Line
+	12400 6225 12400 6025
+Connection ~ 12400 6025
+Wire Wire Line
+	11675 6425 12400 6425
+Wire Wire Line
+	12400 6425 12400 6225
+Connection ~ 12400 6225
+$Comp
+L custom_power:GND #PWR?
+U 1 1 618A64E7
+P 12550 7275
+AR Path="/5F9C0FE0/5F9C104C/618A64E7" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/618A64E7" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/618A64E7" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/618A64E7" Ref="#PWR043"  Part="1" 
+F 0 "#PWR043" H 12550 7025 50  0001 C CNN
+F 1 "GND" H 12375 7250 50  0000 C CNN
+F 2 "" H 12550 7275 50  0000 C CNN
+F 3 "" H 12550 7275 50  0000 C CNN
+	1    12550 7275
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11675 6625 12550 6625
+Wire Wire Line
+	12550 6625 12550 6825
+Wire Wire Line
+	11675 7225 12550 7225
+Connection ~ 12550 7225
+Wire Wire Line
+	12550 7225 12550 7275
+Wire Wire Line
+	11675 7025 12550 7025
+Connection ~ 12550 7025
+Wire Wire Line
+	12550 7025 12550 7225
+Wire Wire Line
+	11675 6825 12550 6825
+Connection ~ 12550 6825
+Wire Wire Line
+	12550 6825 12550 7025
+Text GLabel 14175 5525 2    50   Input ~ 0
+~VDD_POWERA_VALID
+Text GLabel 11875 7625 2    50   Input ~ 0
+~VDD_POWERB_VALID
+$Comp
+L fx23l-80p-0.5sv8:FX23L-80P-0.5SV8 J?
+U 2 1 6379D174
+P 11775 1625
+AR Path="/6379D174" Ref="J?"  Part="2" 
+AR Path="/63770CE0/6379D174" Ref="J6"  Part="2" 
+F 0 "J6" H 11483 1990 50  0000 C CNN
+F 1 "FX23L-80P-0.5SV10" H 11483 1899 50  0000 C CNN
+F 2 "UVDL:Hirose-FX23L-80P-0.5SV8-MFG" H 11775 2125 50  0001 L CNN
+F 3 "https://www.hirose.com/product/document?clcode=CL0573-2004-3-00&productname=FX23L-80P-0.5SV8&series=FX23L&documenttype=2DDrawing&lang=en&documentid=0000956343" H 11775 2225 50  0001 L CNN
+F 4 "No" H 11775 2325 50  0001 L CNN "automotive"
+F 5 "Conn" H 11775 2425 50  0001 L CNN "category"
+F 6 "Gold,Nickel" H 11775 2525 50  0001 L CNN "contact material"
+F 7 "0.5/3A" H 11775 2625 50  0001 L CNN "current rating"
+F 8 "Connectors" H 11775 2725 50  0001 L CNN "device class L1"
+F 9 "Board to Board Connectors" H 11775 2825 50  0001 L CNN "device class L2"
+F 10 "unset" H 11775 2925 50  0001 L CNN "device class L3"
+F 11 "CONN HDR" H 11775 3025 50  0001 L CNN "digikey description"
+F 12 "FX23L-80P-0.5SV8-ND" H 11775 3125 50  0001 L CNN "digikey part number"
+F 13 "7.15mm" H 11775 3225 50  0001 L CNN "height"
+F 14 "yes" H 11775 3325 50  0001 L CNN "is connector"
+F 15 "yes" H 11775 3425 50  0001 L CNN "is male"
+F 16 "Yes" H 11775 3525 50  0001 L CNN "lead free"
+F 17 "d772abcde60cf97a" H 11775 3625 50  0001 L CNN "library id"
+F 18 "Hirose" H 11775 3725 50  0001 L CNN "manufacturer"
+F 19 "798-FX23L-80P-0.5SV8" H 11775 3825 50  0001 L CNN "mouser part number"
+F 20 "80" H 11775 3925 50  0001 L CNN "number of contacts"
+F 21 "2" H 11775 4025 50  0001 L CNN "number of rows"
+F 22 "HDR80" H 11775 4125 50  0001 L CNN "package"
+F 23 "0.5mm" H 11775 4225 50  0001 L CNN "pitch"
+F 24 "Yes" H 11775 4325 50  0001 L CNN "rohs"
+F 25 "+105°C" H 11775 4425 50  0001 L CNN "temperature range high"
+F 26 "-55°C" H 11775 4525 50  0001 L CNN "temperature range low"
+F 27 "50/200V" H 11775 4625 50  0001 L CNN "voltage rating"
+F 28 "FX23L-80P-0.5SV10" H 11775 1625 50  0001 C CNN "Part Num"
+	2    11775 1625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11875 7425 11675 7425
+Wire Wire Line
+	11875 7625 11675 7625
+Text Notes 12100 7825 0    50   ~ 0
+NO B POWER SOURCE ON THIS BOARD, THE FMU WILL PULL THIS UP
+$Comp
+L Device:Q_NMOS_GSD Q1
+U 1 1 61966F3D
+P 13700 6325
+F 0 "Q1" H 13904 6371 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 13904 6280 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 13900 6425 50  0001 C CNN
+F 3 "~" H 13700 6325 50  0001 C CNN
+F 4 "BSS214NH6327XTSA1" H 13700 6325 50  0001 C CNN "Part Num"
+	1    13700 6325
+	1    0    0    -1  
+$EndComp
+$Comp
+<<<<<<< HEAD
+L Device:R R2
+=======
+L breakout_pixc4_jetson-rescue:+5V-archangel #PWR0126
+U 1 1 6196A7E8
+P 13200 6200
+AR Path="/6196A7E8" Ref="#PWR0126"  Part="1" 
+AR Path="/63770CE0/6196A7E8" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0126" H 13200 6050 50  0001 C CNN
+F 1 "+5V" H 13215 6373 50  0000 C CNN
+F 2 "" H 13200 6200 50  0001 C CNN
+F 3 "" H 13200 6200 50  0001 C CNN
+	1    13200 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R21
+>>>>>>> ddcb2b96df3d38dd235f91614cde3d00a823ff6a
+U 1 1 619739D5
+P 13800 5850
+F 0 "R2" H 13870 5896 50  0000 L CNN
+F 1 "220" H 13870 5805 50  0000 L CNN
+F 2 "Resistors_SMD:R_0201" V 13730 5850 50  0001 C CNN
+F 3 "~" H 13800 5850 50  0001 C CNN
+F 4 "ERJ-1GNF2200C" H 13800 5850 50  0001 C CNN "Part Num"
+	1    13800 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 6198441E
+P 13300 6575
+F 0 "R1" H 13370 6621 50  0000 L CNN
+F 1 "10K" H 13370 6530 50  0000 L CNN
+F 2 "Resistors_SMD:R_0201" V 13230 6575 50  0001 C CNN
+F 3 "~" H 13300 6575 50  0001 C CNN
+F 4 "ERJ-1GNF1002C" H 13300 6575 50  0001 C CNN "Part Num"
+	1    13300 6575
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_power:GND #PWR?
+U 1 1 61985A42
+P 13300 6725
+AR Path="/5F9C0FE0/5F9C104C/61985A42" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/61985A42" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/61985A42" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/61985A42" Ref="#PWR047"  Part="1" 
+F 0 "#PWR047" H 13300 6475 50  0001 C CNN
+F 1 "GND" H 13425 6600 50  0000 C CNN
+F 2 "" H 13300 6725 50  0000 C CNN
+F 3 "" H 13300 6725 50  0000 C CNN
+	1    13300 6725
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13200 6200 13200 6325
+Wire Wire Line
+	13200 6325 13300 6325
+Wire Wire Line
+	13300 6425 13300 6325
+Connection ~ 13300 6325
+Wire Wire Line
+	13300 6325 13500 6325
+Wire Wire Line
+	13800 6125 13800 6000
+Wire Wire Line
+	13800 5700 13800 5525
+Wire Wire Line
+	13800 5525 14175 5525
+$Comp
+L custom_power:GND #PWR?
+U 1 1 619CFA5D
+P 13800 6525
+AR Path="/5F9C0FE0/5F9C104C/619CFA5D" Ref="#PWR?"  Part="1" 
+AR Path="/608128E9/619CFA5D" Ref="#PWR?"  Part="1" 
+AR Path="/63F40A1E/619CFA5D" Ref="#PWR?"  Part="1" 
+AR Path="/63770CE0/619CFA5D" Ref="#PWR048"  Part="1" 
+F 0 "#PWR048" H 13800 6275 50  0001 C CNN
+F 1 "GND" H 13925 6400 50  0000 C CNN
+F 2 "" H 13800 6525 50  0000 C CNN
+F 3 "" H 13800 6525 50  0000 C CNN
+	1    13800 6525
+	-1   0    0    -1  
+$EndComp
+Text GLabel 11875 7425 2    50   Input ~ 0
+~VDD_POWERA_VALID
+Text Notes 11075 6725 1    50   ~ 0
+FMU POWER
+$Comp
+L archangel:+5V_FMU #PWR042
+U 1 1 606AF645
+P 12400 5800
+F 0 "#PWR042" H 12400 5650 50  0001 C CNN
+F 1 "+5V_FMU" H 12415 5973 50  0000 C CNN
+F 2 "" H 12400 5800 50  0001 C CNN
+F 3 "" H 12400 5800 50  0001 C CNN
+	1    12400 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L archangel:+5V_FMU #PWR046
+U 1 1 606B0EA1
+P 13200 6200
+F 0 "#PWR046" H 13200 6050 50  0001 C CNN
+F 1 "+5V_FMU" H 13215 6373 50  0000 C CNN
+F 2 "" H 13200 6200 50  0001 C CNN
+F 3 "" H 13200 6200 50  0001 C CNN
+	1    13200 6200
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

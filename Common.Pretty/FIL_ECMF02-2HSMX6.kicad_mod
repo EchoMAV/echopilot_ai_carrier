@@ -1,0 +1,73 @@
+
+(module FIL_ECMF02-2HSMX6 (layer F.Cu) (tedit 600848F4)
+  (descr "")
+  (fp_text reference REF** (at -0.1444825 -1.4163495 0) (layer F.SilkS)
+    (effects (font (size 0.361211811024 0.361211811024) (thickness 0.015)))
+  )
+  (fp_text value FIL_ECMF02-2HSMX6 (at 2.5704135 1.3530845 0) (layer F.Fab)
+    (effects (font (size 0.360449606299 0.360449606299) (thickness 0.015)))
+  )
+  (fp_line (start 0.675 -0.8) (end -0.675 -0.8) (layer F.Fab) (width 0.127))
+  (fp_line (start -0.675 -0.8) (end -0.675 0.8) (layer F.Fab) (width 0.127))
+  (fp_line (start -0.675 0.8) (end 0.675 0.8) (layer F.Fab) (width 0.127))
+  (fp_line (start 0.675 0.8) (end 0.675 -0.8) (layer F.Fab) (width 0.127))
+  (fp_circle (center -1.2 -0.5) (end -1.15 -0.5) (layer F.SilkS) (width 0.127))
+  (fp_line (start 1.2 -1.05) (end -1.2 -1.05) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -1.2 -1.05) (end -1.2 1.05) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -1.2 1.05) (end 1.2 1.05) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 1.2 1.05) (end 1.2 -1.05) (layer F.CrtYd) (width 0.05))
+  (fp_poly
+    (pts
+      (xy 0.0301038 -0.62)
+      (xy 0.93 -0.62)
+      (xy 0.93 -0.381315)
+      (xy 0.0301038 -0.381315)
+    ) (layer F.Paste) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.931972 -0.62)
+      (xy -0.31 -0.62)
+      (xy -0.31 -0.380806)
+      (xy -0.931972 -0.380806)
+    ) (layer F.Paste) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.932348 -0.12)
+      (xy -0.31 -0.12)
+      (xy -0.31 0.120303)
+      (xy -0.932348 0.120303)
+    ) (layer F.Paste) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.932682 0.38)
+      (xy -0.31 0.38)
+      (xy -0.31 0.621788)
+      (xy -0.932682 0.621788)
+    ) (layer F.Paste) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 0.0300694 -0.12)
+      (xy 0.93 -0.12)
+      (xy 0.93 0.120278)
+      (xy 0.0300694 0.120278)
+    ) (layer F.Paste) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 0.0300828 0.38)
+      (xy 0.93 0.38)
+      (xy 0.93 0.621711)
+      (xy 0.0300828 0.621711)
+    ) (layer F.Paste) (width 0.01)
+  )
+  (pad 1 smd rect (at -0.625 -0.5) (size 0.65 0.25) (layers F.Cu F.Mask))
+  (pad 2 smd rect (at -0.625 0.0) (size 0.65 0.25) (layers F.Cu F.Mask))
+  (pad 3 smd rect (at -0.625 0.5) (size 0.65 0.25) (layers F.Cu F.Mask))
+  (pad 4 smd rect (at 0.475 0.5) (size 0.95 0.25) (layers F.Cu F.Mask))
+  (pad 5 smd rect (at 0.475 0.0) (size 0.95 0.25) (layers F.Cu F.Mask))
+  (pad 6 smd rect (at 0.475 -0.5) (size 0.95 0.25) (layers F.Cu F.Mask))
+)

@@ -1,0 +1,174 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title "PixC4-Jetson Universal Carrier"
+Date "2021-03-23"
+Rev "0"
+Comp "Horizon31.com"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+BATT #PWR?
+U 1 1 63E77036
+P 6525 1600
+AR Path="/5E55CCE4/63E77036" Ref="#PWR?"  Part="1" 
+AR Path="/63E77036" Ref="#PWR?"  Part="1" 
+AR Path="/63E4EDD3/63E77036" Ref="#PWR?"  Part="1" 
+AR Path="/63E4F4AB/63E77036" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 6525 1450 50  0001 C CNN
+F 1 "+BATT" H 6525 1740 50  0000 C CNN
+F 2 "" H 6525 1600 50  0001 C CNN
+F 3 "" H 6525 1600 50  0001 C CNN
+	1    6525 1600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 63E77044
+P 6200 2200
+AR Path="/5E55CCE4/63E77044" Ref="C?"  Part="1" 
+AR Path="/63E77044" Ref="C?"  Part="1" 
+AR Path="/63E4EDD3/63E77044" Ref="C?"  Part="1" 
+AR Path="/63E4F4AB/63E77044" Ref="C31"  Part="1" 
+F 0 "C31" H 6225 2300 50  0000 L CNN
+F 1 "10uF 100V" V 6350 1950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 6238 2050 50  0001 C CNN
+F 3 "" H 6200 2200 50  0001 C CNN
+F 4 "GRM32EC72A106KE05L" H 6225 2400 50  0001 C CNN "Part Num"
+	1    6200 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 63E770C2
+P 5925 1950
+AR Path="/5E55CCE4/63E770C2" Ref="D?"  Part="1" 
+AR Path="/63E770C2" Ref="D?"  Part="1" 
+AR Path="/63E4EDD3/63E770C2" Ref="D?"  Part="1" 
+AR Path="/63E4F4AB/63E770C2" Ref="D7"  Part="1" 
+F 0 "D7" V 5975 2025 50  0000 L CNN
+F 1 "D_Schottky 80V" H 5775 1825 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-523" H 5925 1950 50  0001 C CNN
+F 3 "~" H 5925 1950 50  0001 C CNN
+F 4 "1SS400SMT2R" V 5925 1950 50  0001 C CNN "Part Num"
+	1    5925 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5925 1800 5925 1675
+Wire Wire Line
+	5925 2100 5925 2150
+Wire Wire Line
+	6200 2350 6200 2475
+$Comp
+L power:GND #PWR0114
+U 1 1 63E89C41
+P 5925 2150
+F 0 "#PWR0114" H 5925 1900 50  0001 C CNN
+F 1 "GND" H 5930 1977 50  0000 C CNN
+F 2 "" H 5925 2150 50  0001 C CNN
+F 3 "" H 5925 2150 50  0001 C CNN
+	1    5925 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 63E8A176
+P 6200 2475
+F 0 "#PWR0116" H 6200 2225 50  0001 C CNN
+F 1 "GND" H 6205 2302 50  0000 C CNN
+F 2 "" H 6200 2475 50  0001 C CNN
+F 3 "" H 6200 2475 50  0001 C CNN
+	1    6200 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J13
+U 1 1 63E951A9
+P 5125 1675
+F 0 "J13" H 5043 1350 50  0000 C CNN
+F 1 "XT30PW-M" H 5043 1441 50  0000 C CNN
+F 2 "UVDL:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal" H 5125 1675 50  0001 C CNN
+F 3 "~" H 5125 1675 50  0001 C CNN
+F 4 "XT30PW-M" H 5125 1675 50  0001 C CNN "Part Num"
+	1    5125 1675
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 63E9F5FD
+P 5450 1875
+F 0 "#PWR0107" H 5450 1625 50  0001 C CNN
+F 1 "GND" H 5455 1702 50  0000 C CNN
+F 2 "" H 5450 1875 50  0001 C CNN
+F 3 "" H 5450 1875 50  0001 C CNN
+	1    5450 1875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5325 1775 5450 1775
+Wire Wire Line
+	5450 1775 5450 1875
+Text Notes 4575 1725 0    50   ~ 0
+XT30 IN\n
+Text GLabel 5350 3325 2    50   Input ~ 0
+BATT_CURRENT_SENS_PROT
+Text GLabel 5350 3225 2    50   Input ~ 0
+BATT_VOLTAGE_SENS_PROT
+Wire Wire Line
+	5325 1675 5925 1675
+Connection ~ 5925 1675
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 606723C9
+P 5150 3325
+F 0 "J?" H 5068 3642 50  0000 C CNN
+F 1 "Conn_01x03" H 5068 3551 50  0000 C CNN
+F 2 "" H 5150 3325 50  0001 C CNN
+F 3 "~" H 5150 3325 50  0001 C CNN
+	1    5150 3325
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60678E3B
+P 5400 3500
+F 0 "#PWR?" H 5400 3250 50  0001 C CNN
+F 1 "GND" H 5405 3327 50  0000 C CNN
+F 2 "" H 5400 3500 50  0001 C CNN
+F 3 "" H 5400 3500 50  0001 C CNN
+	1    5400 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3425 5400 3425
+Wire Wire Line
+	5400 3425 5400 3500
+Wire Wire Line
+	6525 1675 6525 1600
+$Comp
+L Device:R R?
+U 1 1 60663306
+P 6200 1900
+F 0 "R?" H 6270 1946 50  0000 L CNN
+F 1 "750m" H 6270 1855 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 6130 1900 50  0001 C CNN
+F 3 "~" H 6200 1900 50  0001 C CNN
+F 4 "ERJ-2BQJR75X" H 6200 1900 50  0001 C CNN "Part Num"
+	1    6200 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5925 1675 6200 1675
+Wire Wire Line
+	6200 1750 6200 1675
+Connection ~ 6200 1675
+Wire Wire Line
+	6200 1675 6525 1675
+$EndSCHEMATC

@@ -1,0 +1,55 @@
+### Module positions - created on Thu May  4 09:56:02 2023 ###
+### Printed by Pcbnew version (6.0.11)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                      Package                                               PosX       PosY       Rot  Side
+BT1       MS421R                   SEIKO_ML414H_IV01E                               -112.6072  -110.3334  -90.0000  bottom
+C1        0.1uF                    C_0201                                           -118.9322  -115.4584   90.0000  bottom
+C2        0.1uF                    C_0201                                           -118.8222   -98.8284   90.0000  bottom
+C3        0.1uF                    C_0201                                           -118.9322  -114.1584  -90.0000  bottom
+C4        0.1uF                    C_0201                                           -118.8622   -97.4884  -90.0000  bottom
+C5        1000pF                   C_0201                                           -131.7422  -116.1984    0.0000  bottom
+C6        1000pF                   C_0201                                           -131.5622   -98.6284  -90.0000  bottom
+C28       0.1uF                    C_0201_0603Metric                                 -89.8222   -86.7184    0.0000  bottom
+C29       0.1uF                    C_0201_0603Metric                                -115.3572   -86.6784    0.0000  bottom
+C30       47pF                     C_0201_0603Metric                                 -74.6072  -103.8084  -90.0000  bottom
+C31       47pF                     C_0201_0603Metric                                 -74.6072  -102.3334   90.0000  bottom
+C32       4.7uF                    C_0805_2012Metric                                 -73.6822   -98.7334   90.0000  bottom
+C33       0.1uF                    C_0201_0603Metric                                 -75.1322   -99.7284   90.0000  bottom
+C34       0.1uF                    C_0201_0603Metric                                 -74.7322  -100.9084  180.0000  bottom
+C43       1.0uF                    C_0805_2012Metric                                -108.8072   -99.6084    0.0000  bottom
+C44       1.0uF                    C_0805_2012Metric                                -108.8322  -105.9334    0.0000  bottom
+C45       0.1uF                    C_0402_1005Metric                                -108.3072  -107.4584    0.0000  bottom
+D7        ZLLS410TA                D_SOD-323                                        -107.8072  -109.6834   90.0000  bottom
+D8        D_Schottky               D_SMA                                             -85.8522  -126.2284   90.0000  bottom
+D9        D_Schottky               D_SMA                                             -76.8322  -126.2584   90.0000  bottom
+F1        0603L100SLYR             Fuse_0603_1608Metric                              -85.8622  -131.3484  -90.0000  bottom
+FB1       MPZ1608Y101BTA00         L_0603_1608Metric                                 -71.0322   -99.7584    0.0000  bottom
+FL1       ECMF02-2AMX6             QFN-6L_STM                                        -71.3053  -103.4584    0.0000  bottom
+FL2       ECMF02-2AMX6             QFN-6L_STM                                       -128.0822   -90.0684  180.0000  bottom
+J7        USB_C_Receptacle_USB2.0  USB_C_Receptacle_Amphenol_12401610E4-2A           -63.1522  -103.7684   90.0000  bottom
+J8        1-84952-5                TE_1-84952-5                                      -82.3722   -84.8284    0.0000  bottom
+J13       Conn_01x03               JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal  -116.3572  -134.1184  180.0000  bottom
+J14       1-84952-5                TE_1-84952-5                                     -108.0262   -84.8284    0.0000  bottom
+J17       Conn_01x04               JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal   -61.5222  -113.9184   90.0000  bottom
+J18       Conn_01x06               JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal   -61.5442  -124.3584   90.0000  bottom
+J19       Conn_01x04               JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal  -128.3822  -134.1184  180.0000  bottom
+J21       Conn_01x04               JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal  -137.7222   -99.6384  -90.0000  bottom
+J22       Conn_01x04               JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal  -137.7022  -108.5151  -90.0000  bottom
+J23       Conn_01x04               JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal  -137.7522  -117.3917  -90.0000  bottom
+J24       Conn_01x04               JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal  -137.7322  -126.2684  -90.0000  bottom
+J25       Conn_01x04               JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal   -99.5422  -134.1184  180.0000  bottom
+J26       Conn_01x03               JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal  -108.2722  -134.1184  180.0000  bottom
+J29       USB_C_Receptacle_USB2.0  USB_C_Receptacle_Amphenol_12401610E4-2A          -135.8222   -89.8284  -90.0000  bottom
+R3        75                       R_0201                                           -131.5322  -115.1684   90.0000  bottom
+R4        75                       R_0201                                           -131.5822   -97.4584   90.0000  bottom
+R16       1.0K                     R_0201                                            -67.9229  -136.4588    0.0000  bottom
+R17       1.0K                     R_0201                                            -69.3072  -136.4334  180.0000  bottom
+R20       27                       R_0201_0603Metric                                 -78.4822  -103.5584   90.0000  bottom
+R21       27                       R_0201_0603Metric                                 -77.7072  -103.5584   90.0000  bottom
+R26       3.3K                     R_0402_1005Metric                                -108.3572  -112.4084    0.0000  bottom
+U1        HX0068ANLT               HX0068ANLT_r2                                    -121.6794  -109.0324   90.0000  bottom
+U2        HX0068ANLT               HX0068ANLT_r2                                    -121.7994   -92.2324   90.0000  bottom
+U5        FT231XQ-R                QFN20_FT231XQ_FTD                                 -78.4822   -99.8834  180.0000  bottom
+U8        AP2112K-3.3              SOT-23-5                                         -108.8072  -102.8334  -90.0000  bottom
+## End
