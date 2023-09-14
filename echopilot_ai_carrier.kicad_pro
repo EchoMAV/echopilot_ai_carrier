@@ -496,6 +496,35 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "c1cd829b-ce6d-45d4-ac65-d2dab15a61f6",
+      ""
+    ],
+    [
+      "00000000-0000-0000-0000-0000637b8aa2",
+      "MainPower"
+    ],
+    [
+      "00000000-0000-0000-0000-0000637b8ac9",
+      "Connectors"
+    ],
+    [
+      "00000000-0000-0000-0000-000063770ce0",
+      "B2BConnector"
+    ],
+    [
+      "166856f5-4c9d-451e-956d-2d8dfacdfe56",
+      "External INS"
+    ],
+    [
+      "1d1bbc38-a8f2-4a8f-9261-c0513d875619",
+      "USB3"
+    ],
+    [
+      "9fdd2f6a-b8c4-42a4-8efd-592d9522450d",
+      "M.2"
+    ]
+  ],
   "text_variables": {}
 }

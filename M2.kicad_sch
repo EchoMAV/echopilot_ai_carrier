@@ -2150,7 +2150,7 @@
           (reference "C115") (unit 1)
         )
       )
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "C88") (unit 1)
         )
@@ -2175,7 +2175,7 @@
     )
     (pin "1" (uuid 4a93363a-58ea-4808-83c0-256c4ac758cc))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0203") (unit 1)
         )
@@ -2200,7 +2200,7 @@
     )
     (pin "1" (uuid a58ef5ab-4b55-41c4-a9e2-5f5c1a4322ef))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8aa2"
           (reference "#PWR0111") (unit 1)
         )
@@ -2233,7 +2233,7 @@
           (reference "#PWR0302") (unit 1)
         )
       )
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0219") (unit 1)
         )
@@ -2258,7 +2258,7 @@
     )
     (pin "1" (uuid b435368a-76cf-4c1e-99c6-fdf637aa7870))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8aa2"
           (reference "#PWR0111") (unit 1)
         )
@@ -2291,7 +2291,7 @@
           (reference "#PWR0305") (unit 1)
         )
       )
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0218") (unit 1)
         )
@@ -2321,7 +2321,7 @@
           (reference "#PWR0291") (unit 1)
         )
       )
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0223") (unit 1)
         )
@@ -2359,7 +2359,7 @@
     (pin "S3" (uuid 0b29aad4-2f45-448f-b6a3-1b43ca0c5628))
     (pin "S4" (uuid 1d9d363c-fcd8-4da7-953e-3b56d8aa7925))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "J31") (unit 1)
         )
@@ -2384,7 +2384,7 @@
     )
     (pin "1" (uuid 190632d9-0361-4d03-b5a6-a3874761d9ff))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0202") (unit 1)
         )
@@ -2409,7 +2409,7 @@
     )
     (pin "1" (uuid 9069de33-ad10-4cfc-9374-6581556baafb))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0206") (unit 1)
         )
@@ -2434,7 +2434,7 @@
     )
     (pin "1" (uuid d5aa8b8f-d8d5-4e46-af46-df6022c1c4f7))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0216") (unit 1)
         )
@@ -2464,7 +2464,7 @@
           (reference "#PWR0292") (unit 1)
         )
       )
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0225") (unit 1)
         )
@@ -2489,7 +2489,7 @@
     )
     (pin "1" (uuid 33d4a974-7ebf-43c3-86a2-1680a46af6a1))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0230") (unit 1)
         )
@@ -2518,7 +2518,7 @@
     (pin "1" (uuid 10382abf-915b-4245-92dc-04a2b611c8e6))
     (pin "2" (uuid f93b6662-9c8f-48c3-b2c6-f81b5de25f2f))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/1d1bbc38-a8f2-4a8f-9261-c0513d875619"
           (reference "C50") (unit 1)
         )
@@ -2550,7 +2550,7 @@
     (pin "1" (uuid 5d8e2765-6e8a-4275-aed8-e9c69f5d2cfe))
     (pin "2" (uuid 583b77b6-c18d-4d1b-b23e-cfae23043898))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/1d1bbc38-a8f2-4a8f-9261-c0513d875619"
           (reference "C45") (unit 1)
         )
@@ -2578,7 +2578,7 @@
     )
     (pin "1" (uuid 84bb965d-7abd-41c2-a21b-35d1a0285ebf))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0233") (unit 1)
         )
@@ -2612,7 +2612,7 @@
           (reference "R107") (unit 1)
         )
       )
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "R49") (unit 1)
         )
@@ -2637,7 +2637,7 @@
     )
     (pin "1" (uuid 3ef3a565-2802-48eb-bf12-c87bea41542d))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0214") (unit 1)
         )
@@ -2662,7 +2662,7 @@
     )
     (pin "1" (uuid 8a64cc65-1e44-4954-a8c6-58be2468239a))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0204") (unit 1)
         )
@@ -2687,7 +2687,7 @@
     )
     (pin "1" (uuid 2edf8d7f-fe4e-44b0-9249-838a9fb283d2))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0213") (unit 1)
         )
@@ -2730,7 +2730,7 @@
           (reference "U33") (unit 1)
         )
       )
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "U12") (unit 1)
         )
@@ -2764,7 +2764,7 @@
           (reference "D15") (unit 1)
         )
       )
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "D13") (unit 1)
         )
@@ -2789,7 +2789,7 @@
     )
     (pin "1" (uuid 3c49dd5e-d039-44d0-a943-cf0e6be98db4))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0209") (unit 1)
         )
@@ -2814,7 +2814,7 @@
     )
     (pin "1" (uuid 5031adb5-7f76-4c52-939c-e1d7074426e0))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0205") (unit 1)
         )
@@ -2848,7 +2848,7 @@
           (reference "L2") (unit 1)
         )
       )
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "L4") (unit 1)
         )
@@ -2882,7 +2882,7 @@
           (reference "C72") (unit 1)
         )
       )
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "C86") (unit 1)
         )
@@ -2916,7 +2916,7 @@
           (reference "R102") (unit 1)
         )
       )
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "R46") (unit 1)
         )
@@ -2941,7 +2941,7 @@
     )
     (pin "1" (uuid 5b957c2c-cafa-477b-8a78-5c9a5ccb5ef3))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0210") (unit 1)
         )
@@ -2971,7 +2971,7 @@
           (reference "#PWR0304") (unit 1)
         )
       )
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0222") (unit 1)
         )
@@ -2996,7 +2996,7 @@
     )
     (pin "1" (uuid b33e93af-d4b1-409c-b932-25adf171b1f4))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0215") (unit 1)
         )
@@ -3021,7 +3021,7 @@
     )
     (pin "1" (uuid 1efb12f5-68d4-4fd2-972a-ca00245369d0))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0211") (unit 1)
         )
@@ -3050,7 +3050,7 @@
     (pin "1" (uuid d7f2458e-cea0-4b00-b84d-1109bc619bae))
     (pin "2" (uuid 7dd2692b-e4d8-43e8-bd9d-1166b9593278))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "D12") (unit 1)
         )
@@ -3075,7 +3075,7 @@
     )
     (pin "1" (uuid 0f9cc9dd-a102-4753-a138-e61407de2628))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR080") (unit 1)
         )
@@ -3104,7 +3104,7 @@
     (pin "1" (uuid 2daf46ff-511e-498f-9519-595947f699f5))
     (pin "2" (uuid fea0f663-5f2f-432a-bbb8-086fc952b441))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/1d1bbc38-a8f2-4a8f-9261-c0513d875619"
           (reference "C45") (unit 1)
         )
@@ -3137,7 +3137,7 @@
           (reference "#PWR0290") (unit 1)
         )
       )
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0226") (unit 1)
         )
@@ -3171,7 +3171,7 @@
           (reference "C116") (unit 1)
         )
       )
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "C89") (unit 1)
         )
@@ -3205,7 +3205,7 @@
     (pin "6" (uuid 721632e6-104b-41dd-99ee-fa150796729a))
     (pin "7" (uuid c1809187-de13-410a-a597-d804e779a07e))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "U13") (unit 1)
         )
@@ -3234,7 +3234,7 @@
     (pin "1" (uuid 7b6fcc1b-8dab-42be-8351-e3e7f9af1d1a))
     (pin "2" (uuid d2819a84-d148-4dcd-86b2-2e16e0f5fee6))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "R43") (unit 1)
         )
@@ -3268,7 +3268,7 @@
           (reference "R65") (unit 1)
         )
       )
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "R50") (unit 1)
         )
@@ -3297,7 +3297,7 @@
     (pin "1" (uuid ea7163ea-6c5e-41a1-8f35-8d9473c4e14a))
     (pin "2" (uuid 1cd6fedc-b9e3-4025-bdb0-16823d16f458))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/1d1bbc38-a8f2-4a8f-9261-c0513d875619"
           (reference "C45") (unit 1)
         )
@@ -3329,7 +3329,7 @@
     (pin "1" (uuid 5e0f2aa8-929e-456a-a004-da600a092fcc))
     (pin "2" (uuid 0d20f9d8-8dfa-4b5e-a6f0-5c9a9e7ab2c6))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "R42") (unit 1)
         )
@@ -3354,7 +3354,7 @@
     )
     (pin "1" (uuid e0c10806-b724-44d0-bfa5-b467ecd5d557))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0207") (unit 1)
         )
@@ -3384,7 +3384,7 @@
           (reference "#PWR081") (unit 1)
         )
       )
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0229") (unit 1)
         )
@@ -3409,7 +3409,7 @@
     )
     (pin "1" (uuid 6c550839-4af5-4cb3-943e-f9ef74eb16d5))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8aa2"
           (reference "#PWR0111") (unit 1)
         )
@@ -3437,7 +3437,7 @@
     )
     (pin "1" (uuid 42905498-d108-4755-be28-2d94e9508531))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0232") (unit 1)
         )
@@ -3471,7 +3471,7 @@
           (reference "R104") (unit 1)
         )
       )
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "R48") (unit 1)
         )
@@ -3567,7 +3567,7 @@
     (pin "S1" (uuid f4c4300e-41cd-4784-bde7-7ab8dc43dd98))
     (pin "S2" (uuid 04fd0b7f-646f-4057-b870-97b48d80d8fd))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "J30") (unit 1)
         )
@@ -3596,7 +3596,7 @@
     (pin "1" (uuid af47ca8c-8895-49e0-8785-24d46e7c1264))
     (pin "2" (uuid 43b8a9b1-589d-4442-8236-464842648442))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/1d1bbc38-a8f2-4a8f-9261-c0513d875619"
           (reference "C45") (unit 1)
         )
@@ -3629,7 +3629,7 @@
           (reference "#PWR0295") (unit 1)
         )
       )
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0228") (unit 1)
         )
@@ -3658,7 +3658,7 @@
     (pin "1" (uuid 65c232bc-ba1f-453c-8c9b-eacbdfa9c922))
     (pin "2" (uuid e77addb3-0585-4cd0-a2f7-01bc3ff1388a))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "R44") (unit 1)
         )
@@ -3694,7 +3694,7 @@
           (reference "SP1") (unit 1)
         )
       )
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "SP1") (unit 1)
         )
@@ -3723,7 +3723,7 @@
     (pin "1" (uuid e44946b9-6028-43ba-b5ac-5a91650586bd))
     (pin "2" (uuid 81442331-c511-4ae9-852f-41edf76074c5))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "R45") (unit 1)
         )
@@ -3757,7 +3757,7 @@
           (reference "C73") (unit 1)
         )
       )
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "C87") (unit 1)
         )
@@ -3782,7 +3782,7 @@
     )
     (pin "1" (uuid 231551a3-5c66-49b9-85e9-3e05da2d9e33))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0212") (unit 1)
         )
@@ -3807,7 +3807,7 @@
     )
     (pin "1" (uuid 5957f263-7781-42b0-b497-346a150c042e))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0208") (unit 1)
         )
@@ -3832,7 +3832,7 @@
     )
     (pin "1" (uuid 3423f1b7-e141-4a55-aef5-68fbe985aeee))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0227") (unit 1)
         )
@@ -3862,7 +3862,7 @@
           (reference "#PWR0303") (unit 1)
         )
       )
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/9fdd2f6a-b8c4-42a4-8efd-592d9522450d"
           (reference "#PWR0221") (unit 1)
         )
@@ -3891,7 +3891,7 @@
     (pin "1" (uuid 75e88492-2306-45d7-8e92-86fe585f2913))
     (pin "2" (uuid 1093792b-d06f-405f-b0b5-40049f518f2f))
     (instances
-      (project "pixc4-jetson-universal-carrier"
+      (project "echopilot_ai_carrier"
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/1d1bbc38-a8f2-4a8f-9261-c0513d875619"
           (reference "C45") (unit 1)
         )
