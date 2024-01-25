@@ -878,7 +878,7 @@
     )
   )
 
-  (text "IMPORTANT: FOR USE WITH EchoPilot AI REV 1 OR NEWER"
+  (text "IMPORTANT: FOR USE WITH EchoPilot AI REV 1B OR NEWER"
     (at 187.96 43.815 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 18b6569c-9993-42d0-b555-72beeb296058)

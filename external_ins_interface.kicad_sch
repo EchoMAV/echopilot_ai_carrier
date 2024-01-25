@@ -1115,7 +1115,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 142.875 52.705 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 664ae9e8-32bd-43db-bb0e-d537a65fe66a)
-    (property "Reference" "J15" (at 144.907 52.9082 0)
+    (property "Reference" "J32" (at 144.907 52.9082 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x04" (at 144.907 55.2196 0)
@@ -1136,9 +1136,6 @@
     (pin "4" (uuid 48aa1665-7a68-4aa6-a056-de58db3bf907))
     (instances
       (project "echopilot_ai_carrier"
-        (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8ac9"
-          (reference "J15") (unit 1)
-        )
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/166856f5-4c9d-451e-956d-2d8dfacdfe56"
           (reference "J32") (unit 1)
         )
@@ -1209,7 +1206,7 @@
   (symbol (lib_id "archangel:+5V_FMU") (at 160.02 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b04ea4e-e5b2-4cc5-baf0-b92ba8715c3e)
-    (property "Reference" "#PWR0111" (at 160.02 91.44 0)
+    (property "Reference" "#PWR0147" (at 160.02 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V_FMU" (at 160.401 83.2358 0)
@@ -1224,9 +1221,6 @@
     (pin "1" (uuid 1fe9c12d-8489-45a7-95cd-97198821ebc1))
     (instances
       (project "echopilot_ai_carrier"
-        (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8aa2"
-          (reference "#PWR0111") (unit 1)
-        )
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/166856f5-4c9d-451e-956d-2d8dfacdfe56"
           (reference "#PWR0147") (unit 1)
         )

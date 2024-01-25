@@ -6,8 +6,8 @@
 
   (title_block
     (title "EchoPilot Carrier")
-    (date "2021-03-23")
-    (rev "1")
+    (date "2023-10-25")
+    (rev "1B")
     (company "Echo MAV, LLC")
   )
 
@@ -3209,6 +3209,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 42fc4a2b-76ad-4020-bca9-f3db90f2f8c3)
   )
+  (text "SUB with SRP1038A-8R2M if L1,L2 not available" (at 151.892 49.276 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4334b31a-3eac-40e8-9c6b-6043a9967722)
+  )
   (text "RUN/PGOOD LOGIC ENSURES 1.1V SUPPLY IS STABLE FIRST, AS REQUIRED BY USB HUB"
     (at 185.42 204.47 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -5627,9 +5631,6 @@
     (pin "2" (uuid 7d9e3edb-6ee6-4d0c-a5d8-b91f6f5cb540))
     (instances
       (project "echopilot_ai_carrier"
-        (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8ac9"
-          (reference "J11") (unit 1)
-        )
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8aa2"
           (reference "J11") (unit 1)
         )
@@ -5694,7 +5695,7 @@
   (symbol (lib_id "Device:C") (at 313.055 40.005 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 02acda84-4a07-4731-a444-9ccf31f3c11f)
-    (property "Reference" "C73" (at 314.325 36.83 90)
+    (property "Reference" "C62" (at 314.325 36.83 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 314.325 44.45 90)
@@ -5713,9 +5714,6 @@
     (pin "2" (uuid 0db77b42-eade-49d6-843d-fbf5024bc429))
     (instances
       (project "echopilot_ai_carrier"
-        (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/1d1bbc38-a8f2-4a8f-9261-c0513d875619"
-          (reference "C73") (unit 1)
-        )
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8aa2"
           (reference "C62") (unit 1)
         )
@@ -5755,7 +5753,7 @@
   (symbol (lib_id "custom_power:GND") (at 358.14 186.055 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c1fc39f-875c-4ea0-998c-d96f04353a81)
-    (property "Reference" "#PWR0189" (at 358.14 192.405 0)
+    (property "Reference" "#PWR0145" (at 358.14 192.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 362.585 187.96 0)
@@ -5770,9 +5768,6 @@
     (pin "1" (uuid 67e45710-e03f-4f41-b08c-1fed89bd1ed1))
     (instances
       (project "echopilot_ai_carrier"
-        (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/1d1bbc38-a8f2-4a8f-9261-c0513d875619"
-          (reference "#PWR0189") (unit 1)
-        )
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8aa2"
           (reference "#PWR0145") (unit 1)
         )
@@ -5783,7 +5778,7 @@
   (symbol (lib_id "Device:C") (at 338.455 40.005 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c6ad428-06ee-4512-a881-ce760d912f5a)
-    (property "Reference" "C73" (at 339.725 36.83 90)
+    (property "Reference" "C91" (at 339.725 36.83 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 339.725 44.45 90)
@@ -5802,9 +5797,6 @@
     (pin "2" (uuid 04163e1e-9c8b-47e7-9512-04511529b389))
     (instances
       (project "echopilot_ai_carrier"
-        (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/1d1bbc38-a8f2-4a8f-9261-c0513d875619"
-          (reference "C73") (unit 1)
-        )
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8aa2"
           (reference "C91") (unit 1)
         )
@@ -5815,7 +5807,7 @@
   (symbol (lib_id "Device:C") (at 301.625 40.005 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d3b8ec3-5f4f-4c01-9d36-6f7bf8e20181)
-    (property "Reference" "C73" (at 302.895 36.83 90)
+    (property "Reference" "C41" (at 302.895 36.83 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 302.895 44.45 90)
@@ -5834,9 +5826,6 @@
     (pin "2" (uuid 3ca575e2-1749-4d1e-9d9b-e172c7e78312))
     (instances
       (project "echopilot_ai_carrier"
-        (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/1d1bbc38-a8f2-4a8f-9261-c0513d875619"
-          (reference "C73") (unit 1)
-        )
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8aa2"
           (reference "C41") (unit 1)
         )
@@ -5862,9 +5851,6 @@
     (pin "1" (uuid f0965391-83b1-44a9-8e1b-4d96fb387063))
     (instances
       (project "echopilot_ai_carrier"
-        (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8ac9"
-          (reference "#PWR053") (unit 1)
-        )
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8aa2"
           (reference "#PWR053") (unit 1)
         )
@@ -5990,7 +5976,7 @@
   (symbol (lib_id "Device:C") (at 332.74 40.005 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 278d63af-2cb7-4b26-ab8a-f65a083c9e53)
-    (property "Reference" "C73" (at 334.01 36.83 90)
+    (property "Reference" "C90" (at 334.01 36.83 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 334.01 44.45 90)
@@ -6009,9 +5995,6 @@
     (pin "2" (uuid de06b813-ccc1-4099-92e1-d41dc4e9600e))
     (instances
       (project "echopilot_ai_carrier"
-        (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/1d1bbc38-a8f2-4a8f-9261-c0513d875619"
-          (reference "C73") (unit 1)
-        )
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8aa2"
           (reference "C90") (unit 1)
         )
@@ -6022,7 +6005,7 @@
   (symbol (lib_id "Device:R") (at 358.14 181.61 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 37fd8c63-8a38-4dc9-a012-2fb19544c6f1)
-    (property "Reference" "R33" (at 353.06 181.61 90)
+    (property "Reference" "R24" (at 353.06 181.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "37.4K 1%" (at 355.6 181.61 90)
@@ -6041,9 +6024,6 @@
     (pin "2" (uuid 6a9763be-8dc2-4954-9c51-288113ad56cb))
     (instances
       (project "echopilot_ai_carrier"
-        (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/1d1bbc38-a8f2-4a8f-9261-c0513d875619"
-          (reference "R33") (unit 1)
-        )
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8aa2"
           (reference "R24") (unit 1)
         )
@@ -6108,7 +6088,7 @@
   (symbol (lib_id "Interface_USB:TPS2561") (at 338.455 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 44c6ab04-3ffe-403a-9899-e892d48e5135)
-    (property "Reference" "U10" (at 338.455 151.13 0)
+    (property "Reference" "U6" (at 338.455 151.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS2561" (at 338.455 153.67 0)
@@ -6136,9 +6116,6 @@
     (pin "9" (uuid 4d71b33b-6d24-4f1b-92b7-c6848946fd20))
     (instances
       (project "echopilot_ai_carrier"
-        (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/1d1bbc38-a8f2-4a8f-9261-c0513d875619"
-          (reference "U10") (unit 1)
-        )
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8aa2"
           (reference "U6") (unit 1)
         )
@@ -6253,7 +6230,7 @@
   (symbol (lib_id "Device:C") (at 318.135 40.005 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ec93475-5c0d-46a6-98a2-c8ebbef2e023)
-    (property "Reference" "C73" (at 319.405 36.83 90)
+    (property "Reference" "C71" (at 319.405 36.83 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 319.405 44.45 90)
@@ -6272,9 +6249,6 @@
     (pin "2" (uuid a65ba0c0-169e-4ebb-8010-cbedcd354b9b))
     (instances
       (project "echopilot_ai_carrier"
-        (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/1d1bbc38-a8f2-4a8f-9261-c0513d875619"
-          (reference "C73") (unit 1)
-        )
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8aa2"
           (reference "C71") (unit 1)
         )
@@ -6285,7 +6259,7 @@
   (symbol (lib_id "custom_power:GND") (at 339.09 184.785 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ed3531e-2d08-48db-9be1-49cf479e6c19)
-    (property "Reference" "#PWR0188" (at 339.09 191.135 0)
+    (property "Reference" "#PWR0144" (at 339.09 191.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 343.535 186.69 0)
@@ -6300,9 +6274,6 @@
     (pin "1" (uuid 041dc6c1-f389-4a50-afeb-1b0dfc15b833))
     (instances
       (project "echopilot_ai_carrier"
-        (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/1d1bbc38-a8f2-4a8f-9261-c0513d875619"
-          (reference "#PWR0188") (unit 1)
-        )
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8aa2"
           (reference "#PWR0144") (unit 1)
         )
@@ -6586,7 +6557,7 @@
   (symbol (lib_id "Device:C") (at 307.34 40.005 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7fac4ba3-3b0d-4aeb-838e-cb433d156842)
-    (property "Reference" "C73" (at 308.61 36.83 90)
+    (property "Reference" "C42" (at 308.61 36.83 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 308.61 44.45 90)
@@ -6605,9 +6576,6 @@
     (pin "2" (uuid e9d602d9-60c3-411b-9fbd-52e30f4c3c8b))
     (instances
       (project "echopilot_ai_carrier"
-        (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/1d1bbc38-a8f2-4a8f-9261-c0513d875619"
-          (reference "C73") (unit 1)
-        )
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8aa2"
           (reference "C42") (unit 1)
         )
@@ -6685,7 +6653,7 @@
   (symbol (lib_id "Device:C") (at 308.61 158.75 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 98b94886-a3ef-4180-891f-3a059c62ee3a)
-    (property "Reference" "C73" (at 311.785 160.02 90)
+    (property "Reference" "C35" (at 311.785 160.02 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 304.165 160.02 90)
@@ -6704,9 +6672,6 @@
     (pin "2" (uuid ffe90bda-252a-40f3-8a53-1552f0d598d6))
     (instances
       (project "echopilot_ai_carrier"
-        (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/1d1bbc38-a8f2-4a8f-9261-c0513d875619"
-          (reference "C73") (unit 1)
-        )
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8aa2"
           (reference "C35") (unit 1)
         )
@@ -6742,7 +6707,7 @@
   (symbol (lib_id "Device:C") (at 327.025 40.005 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f4be9b6-d038-45c8-9e94-ad312fca86b6)
-    (property "Reference" "C73" (at 328.295 36.83 90)
+    (property "Reference" "C72" (at 328.295 36.83 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 328.295 44.45 90)
@@ -6761,9 +6726,6 @@
     (pin "2" (uuid cec3de7f-e36d-4ace-9881-a97ea5053169))
     (instances
       (project "echopilot_ai_carrier"
-        (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/1d1bbc38-a8f2-4a8f-9261-c0513d875619"
-          (reference "C73") (unit 1)
-        )
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8aa2"
           (reference "C72") (unit 1)
         )
@@ -6882,7 +6844,7 @@
   (symbol (lib_id "power:GND") (at 387.35 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae491e45-1b67-495d-a005-514b1cebc0ce)
-    (property "Reference" "#PWR053" (at 387.35 172.72 0)
+    (property "Reference" "#PWR0240" (at 387.35 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 387.477 170.7642 0)
@@ -6897,9 +6859,6 @@
     (pin "1" (uuid 1a6810ca-5db0-40cf-a6fa-d60db9f24a6b))
     (instances
       (project "echopilot_ai_carrier"
-        (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8ac9"
-          (reference "#PWR053") (unit 1)
-        )
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8aa2"
           (reference "#PWR0240") (unit 1)
         )
@@ -6910,7 +6869,7 @@
   (symbol (lib_id "custom_power:+5V") (at 316.23 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid afc440d9-e09d-45ea-bffd-19965bb062d5)
-    (property "Reference" "#PWR0186" (at 316.23 158.75 0)
+    (property "Reference" "#PWR0143" (at 316.23 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 316.23 149.86 0)
@@ -6925,9 +6884,6 @@
     (pin "1" (uuid 7d7395b4-cab8-4b1c-ab19-2bac9d879c16))
     (instances
       (project "echopilot_ai_carrier"
-        (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/1d1bbc38-a8f2-4a8f-9261-c0513d875619"
-          (reference "#PWR0186") (unit 1)
-        )
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8aa2"
           (reference "#PWR0143") (unit 1)
         )
@@ -6992,7 +6948,7 @@
   (symbol (lib_id "power:GND") (at 363.855 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf7e00df-f76f-4975-a41b-4780d65a49cf)
-    (property "Reference" "#PWR053" (at 363.855 180.34 0)
+    (property "Reference" "#PWR0241" (at 363.855 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 363.982 178.3842 0)
@@ -7007,9 +6963,6 @@
     (pin "1" (uuid b132d673-a39a-4c85-a1b5-b1d174a00e93))
     (instances
       (project "echopilot_ai_carrier"
-        (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8ac9"
-          (reference "#PWR053") (unit 1)
-        )
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8aa2"
           (reference "#PWR0241") (unit 1)
         )
@@ -7157,7 +7110,7 @@
   (symbol (lib_id "Device:C") (at 343.535 40.005 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e4ffc9f7-799a-41d5-9796-6d8bb32313bf)
-    (property "Reference" "C73" (at 344.805 36.83 90)
+    (property "Reference" "C92" (at 344.805 36.83 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 344.805 44.45 90)
@@ -7176,9 +7129,6 @@
     (pin "2" (uuid b1c1eb06-fc9a-4df4-ad4c-ae99fe12396d))
     (instances
       (project "echopilot_ai_carrier"
-        (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/1d1bbc38-a8f2-4a8f-9261-c0513d875619"
-          (reference "C73") (unit 1)
-        )
         (path "/c1cd829b-ce6d-45d4-ac65-d2dab15a61f6/00000000-0000-0000-0000-0000637b8aa2"
           (reference "C92") (unit 1)
         )

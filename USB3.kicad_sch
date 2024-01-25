@@ -6,7 +6,8 @@
 
   (title_block
     (title "EchoPilot Carrier")
-    (rev "1")
+    (date "2023-10-25")
+    (rev "1B")
     (company "Echo MAV, LLC")
   )
 
